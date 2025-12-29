@@ -1,0 +1,1 @@
+# server to handle hotel bookings related requests

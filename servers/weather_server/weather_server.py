@@ -1,0 +1,1 @@
+# server to handle weather information and alerts related requests
