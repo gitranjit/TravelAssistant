@@ -173,9 +173,87 @@ def search_flight(
         return {"error": str(e)}
 
 
+@mcp_tool()
+def get_flight_details(search_id:str) ->str:
+    """
+    search flight informatio for unique search_id.
+
+    Args:
+        search_id: unique id to search flight records from {FLIGHT_DIR/search_id.json}
+
+    Returns:
+        Json string with flights information
+    """
+    file = os.path.join(FLIGHT_DIR,f"{search_id}.json")
+    if not os.path.exist(file):
+        return f"no flight with search id {search_id} found"
+    try:
+        with open(file,"r") as f:
+            flight_data = json.load(f)
+        return json.dumps(flight_data,indent=2)
+    except:
+        return f"Error while reading file data for search id : {search_id}"
 
 
 
+@mpc_tool()
+def filter_flights_by_price(search_id:str,min_price:Optional[float] = None,max_price:Optional[float] = None)->str:
+    """
+    Filters flights that costs between min_price and max_price
+
+    Args:
+        search_id: unique id to search flight records from {FLIGHT_DIR/search_id.json}
+        min_price: minimum price filter (optional)
+        max_price: maximum price filter (optional)
+
+    Returns:
+        Json string cotaining filtered list of flight/s
+    """
+
+    try:
+        flight_path = os.path.join(FLIGHT_DIR,f"{search_id}.json")
+
+        if not os.path.exists(flight_path):
+            return "Error: can not find flight path {flight_path}"
+        
+        with open(flight_path,'r') as f:
+            flight_data = json.load(f)
+
+        def price_filter(flight):
+            price = flight.get('price',0)
+
+            if min_price is not None and price <min_price:
+                return False
+            if max_price is not None and price > max_price:
+                return False
+            return True
+        
+        filtered_best_flights = []
+        filtered_other_flights = []
+        for f in flight_data.get('best_flights',[]):
+            if price_filter(f) == True:
+                filtered_best_flights.append(f)
+        
+        for f in flight_data.get('other_flights',[]):
+            if price_filter(f) == True:
+                filtered_best_flights.append(f)
+        
+        result =  {
+            "search_id:":search_id,
+            "price_filter":{
+                "min_price ": min_price,
+                "max_price ": max_price
+            },
+            "filtered_best_flights":filtered_best_flights,
+            "filtered_other_flights":filtered_other_flights,
+            "total filtered flights:": len(filtered_best_flights) + len(filtered_other_flights)
+        }
+    
+        return json.dump(result,indent=2)
+
+    except:
+        return f"Error in processing flight data for {search_id}"
+        
 
 # dump response to file
 output_file = "flight_response.json"
