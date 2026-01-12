@@ -34,7 +34,7 @@ params = {
     "sort_by": "Price"  # default Top flights
 }
 
-@mcp.tool()
+# @mcp.tool()
 def search_flight(
     departure_id: str,
     arrival_id: str,
@@ -173,7 +173,7 @@ def search_flight(
         return {"error": str(e)}
 
 
-@mcp_tool()
+# @mcp.tool()
 def get_flight_details(search_id:str) ->str:
     """
     search flight informatio for unique search_id.
@@ -196,7 +196,7 @@ def get_flight_details(search_id:str) ->str:
 
 
 
-@mpc_tool()
+#@mpc.tool()
 def filter_flights_by_price(search_id:str,min_price:Optional[float] = None,max_price:Optional[float] = None)->str:
     """
     Filters flights that costs between min_price and max_price
@@ -255,8 +255,131 @@ def filter_flights_by_price(search_id:str,min_price:Optional[float] = None,max_p
         return f"Error in processing flight data for {search_id}"
         
 
-# dump response to file
-output_file = "flight_response.json"
-with open(output_file, "w", encoding="utf-8") as f:
-    json.dump(api_response, f, indent=2, ensure_ascii=False)
+@mpc.resource("flights://searches")
+def get_flight_searches() -> str:
+    """
+    This resource provides list of all saved flight searches
+    """
+    flight_searches = []
 
+    for filename in os.listdir(FLIGHT_DIR):
+        if filename.endswith('.json'):
+            filepath = os.path.join(FLIGHT_DIR,filename)
+            search_id = filename[:-5]  #removing .json from filename
+            try:
+                with open(filepath,'r') as f:
+                    flight_data = json.load(f)
+                    flight_searches.append(flight_data)
+            except (json.JSONDecodeError, OSError) as e:
+                print(f"Skipping invalid file {filename}: {e}")
+                continue
+
+    
+    
+    if len(flight_searches) == 0:
+        return "Empty Flight Search List"
+    content = "List of available flights \n\n"
+    
+    for search in flight_searches:
+        current_flight_info = ""
+        dep_airport_name = search.get("best_flights").get("flights").get("departure_airport").get("name")
+        dep_airport_time = search.get("best_flights").get("flights").get("departure_airport","").get("time","")
+        arr_airport_name = search.get("best_flights").get("flights").get("arrival_airport","").get("name","")
+        arr_airport_time = search.get("best_flights").get("flights").get("arrival_airport").get("time")
+        price = search.get("best_flights").get("price")
+        
+        current_flight_info+=f"Departure Airport: {dep_airport_name} \n"
+        current_flight_info+=f"Departure date and time: {dep_airport_time} \n"
+        
+        if search['search_parameters'].get(type) == 1:
+            current_flight_info+=f"Arrival Airport: {arr_airport_name} \n"
+            current_flight_info+=f"Departure date and time: {arr_airport_time} \n"
+        current_flight_info+=f"Flight Price: {price} \n"
+
+        content+=current_flight_info
+        content+="\n"
+    
+    return content
+
+@mcp.resource("flights://{search_id}")
+def get_flight_search_details(search_id:str) ->str:
+    """
+    Gives detailed flight information about perticular flight search
+
+    Args:
+        search_id: flight search id to retrive data
+    """
+    file_path = os.path.join(FLIGHT_DIR,f"{search_id}.json")
+
+    if not os.path.exists(file_path):
+        return "No records found for this flight id !"
+    
+    with open(file_path,'r') as f:
+        flight_data = json.load(f)
+    
+    metadata = flight_data.get("search_metadata","")
+    best_flights = flight_data.get("best_flights","")
+    other_flights = flight_data.get("other_flights","")
+    price_insights = flight_data.get("price_insights","")
+    search_parameters = flight_data.get("search_parameters","")
+    content = f"Here is detailed information for flight with search_id: {search_id}"
+    if len(best_flights)>0:
+        content+=""
+        for flight in best_flights:
+            dep_airport_name = best_flights.get("flights").get("departure_airport").get("name")
+            dep_airport_time = best_flights.get("flights").get("departure_airport","").get("time","")
+            arr_airport_name = best_flights.get("flights").get("arrival_airport","").get("name","")
+            arr_airport_time = best_flights.get("flights").get("arrival_airport").get("time")
+            
+            price = best_flights.get("price")
+            
+            current_flight_info+=f"Departure Airport: {dep_airport_name} \n"
+            current_flight_info+=f"Departure date and time: {dep_airport_time} \n"
+            
+            if search_parameters.get(type) == 1:
+                current_flight_info+=f"Arrival Airport: {arr_airport_name} \n"
+                current_flight_info+=f"Departure date and time: {arr_airport_time} \n"
+            current_flight_info+=f"Flight Price: {price} \n"
+
+            content+=current_flight_info
+            content+="\n\n"
+    
+    # will add short summary about other flights
+    if len(other_flights)>0:
+        content+="information about other flights \nf"
+
+        content += f"Summary of Information of Other Flights\n"
+        content += f"Total other options: {len(other_flights)}\n"
+        prices = [f.get("price", 0) for f in other_flights]
+
+        content += f"Price range: {min(prices)} - {max(prices)} {metadata.get('currency', 'INR')}\n\n"
+
+
+
+    if len(price_insights):
+        content+="Flight price insights \n"
+        lowest_price = price_insights.get("lowest_price","")
+        typical_price_range_L = price_insights.get("typical_price_range")[0]
+        typical_price_range_H = price_insights.get("typical_price_range")[1]
+        
+        content+=f"Lowest Price Available: {lowest_price} \n"
+        content+=f"Typical Price Range: {typical_price_range_L} -> {typical_price_range_H} \n"
+
+
+    return content
+
+
+
+
+
+if __name__ == "__main__":
+    # Basic smoke test
+    result = search_flight(
+        departure_id="PNQ",
+        arrival_id="DEL",
+        outbound_date="2026-03-15",
+        trip_type=2,
+        adults=1
+    )
+
+    print(json.dumps(result, indent=2))
