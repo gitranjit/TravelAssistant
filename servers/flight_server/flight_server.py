@@ -369,7 +369,53 @@ def get_flight_search_details(search_id:str) ->str:
     return content
 
 
+@mcp.prompts()
+def travel_planning_prompt(
+    departure: str,
+    destination: str,
+    departure_date: str,
+    return_date:str = "",
+    passangers: int = 1,
+    budget: str = "",
+    preferences: str = ""
+) ->str:
+    """Generate a travel planning prompt for LLM. """
+    prompt = ""
+    prompt+= f"plan a trip from {departure} to {destination}, departure is on {departure_date} "
+    if return_date!="":
+        prompt+=f" and return date {return_date} "
+    else:
+        prompt+= "(one way)"
+    
+    if budget!="":
+        prompt+=f"Budget is {budget}"
+    if preferences!="":
+        prompt+=f"Trip preferences are {preferences} "
+    
+    prompt+= f"""
+    please help with following travel plan task:
+    
+    1. flight search: use search_flight tool to search flight from {departure} to {destination} on departure date {departure_date} """
+    if return_date!="":
+        prompt+=f"""and return date: {return_date}"""
+    else:
+        prompt+=f"(one way)"
+    prompt+= f"Number of passangers: {passangers}"
+    prompt+="""
+    Analyze price insights and recommend best options
 
+    2. Flight Analysis: find the available flights flights and then recommend best flights option
+       mention price comparison analysis
+
+    """
+    if budget!="":
+        prompt+="""
+            Analyze flights costs and help plan flights withing budget 
+        """
+    
+    prompt+="""Present the information in a clear, organized format with suitable recommendations. Use the flight search tools first to get list of flights, then provide analysis and recommendations based on the results."""
+
+    return prompt
 
 
 if __name__ == "__main__":
