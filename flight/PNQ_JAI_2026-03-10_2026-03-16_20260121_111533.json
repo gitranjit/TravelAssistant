@@ -1,0 +1,769 @@
+{
+  "search_data": {
+    "search_id": "PNQ_JAI_2026-03-10_2026-03-16_20260121_111533",
+    "departure_id": "PNQ",
+    "arrival_id": "JAI",
+    "outbound_date": "2026-03-10",
+    "return_date": "2026-03-16",
+    "trip_type": "Round Trip",
+    "adults": 1,
+    "children": 0,
+    "infants_in_seat": 0,
+    "infants_on_lap": 0,
+    "currency": "INR"
+  },
+  "search_results": {
+    "best_flights": [
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Pune International Airport",
+              "id": "PNQ",
+              "time": "2026-03-10 00:05"
+            },
+            "arrival_airport": {
+              "name": "Jaipur International Airport",
+              "id": "JAI",
+              "time": "2026-03-10 01:50"
+            },
+            "duration": 105,
+            "airplane": "Airbus A321neo",
+            "airline": "IndiGo",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "travel_class": "Economy",
+            "flight_number": "6E 6117",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "Carbon emissions estimate: 74 kg"
+            ],
+            "often_delayed_by_over_30_min": true
+          }
+        ],
+        "total_duration": 105,
+        "carbon_emissions": {
+          "this_flight": 74000,
+          "typical_for_this_route": 85000,
+          "difference_percent": -13
+        },
+        "price": 12728,
+        "type": "Round trip",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+        "departure_token": "WyJDalJJVTFWMFkzQldValJQZUhOQlFtZExZM2RDUnkwdExTMHRMUzB0TFMxMmRIUnROMEZCUVVGQlIyeDNXa1kwU1VSdWEzRkJFZ1kyUlRZeE1UY2FDZ2k0WXhBQUdnTkpUbEk0SEhEc2JBPT0iLFtbIlBOUSIsIjIwMjYtMDMtMTAiLCJKQUkiLG51bGwsIjZFIiwiNjExNyJdXV0="
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Pune International Airport",
+              "id": "PNQ",
+              "time": "2026-03-10 13:55"
+            },
+            "arrival_airport": {
+              "name": "Surat International Airport",
+              "id": "STV",
+              "time": "2026-03-10 14:55"
+            },
+            "duration": 60,
+            "airplane": "Airbus A321neo",
+            "airline": "IndiGo",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "travel_class": "Economy",
+            "flight_number": "6E 6191",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "Carbon emissions estimate: 35 kg"
+            ]
+          },
+          {
+            "departure_airport": {
+              "name": "Surat International Airport",
+              "id": "STV",
+              "time": "2026-03-10 16:35"
+            },
+            "arrival_airport": {
+              "name": "Jaipur International Airport",
+              "id": "JAI",
+              "time": "2026-03-10 17:55"
+            },
+            "duration": 80,
+            "airplane": "Airbus A320neo",
+            "airline": "IndiGo",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "travel_class": "Economy",
+            "flight_number": "6E 784",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "Carbon emissions estimate: 63 kg"
+            ],
+            "often_delayed_by_over_30_min": true
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 100,
+            "name": "Surat International Airport",
+            "id": "STV"
+          }
+        ],
+        "total_duration": 240,
+        "carbon_emissions": {
+          "this_flight": 100000,
+          "typical_for_this_route": 85000,
+          "difference_percent": 18
+        },
+        "price": 12886,
+        "type": "Round trip",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+        "departure_token": "WyJDalJJVTFWMFkzQldValJQZUhOQlFtZExZM2RDUnkwdExTMHRMUzB0TFMxMmRIUnROMEZCUVVGQlIyeDNXa1kwU1VSdWEzRkJFZ3cyUlRZeE9URjhOa1UzT0RRYUNnaldaQkFBR2dOSlRsSTRISENaYmc9PSIsW1siUE5RIiwiMjAyNi0wMy0xMCIsIlNUViIsbnVsbCwiNkUiLCI2MTkxIl0sWyJTVFYiLCIyMDI2LTAzLTEwIiwiSkFJIixudWxsLCI2RSIsIjc4NCJdXV0="
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Pune International Airport",
+              "id": "PNQ",
+              "time": "2026-03-10 08:45"
+            },
+            "arrival_airport": {
+              "name": "Indira Gandhi International Airport",
+              "id": "DEL",
+              "time": "2026-03-10 10:55"
+            },
+            "duration": 130,
+            "airplane": "Airbus A320neo",
+            "airline": "Air India",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "travel_class": "Economy",
+            "flight_number": "AI 1838",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "In-seat USB outlet",
+              "Stream media to your device",
+              "Carbon emissions estimate: 106 kg"
+            ]
+          },
+          {
+            "departure_airport": {
+              "name": "Indira Gandhi International Airport",
+              "id": "DEL",
+              "time": "2026-03-10 12:00"
+            },
+            "arrival_airport": {
+              "name": "Jaipur International Airport",
+              "id": "JAI",
+              "time": "2026-03-10 13:00"
+            },
+            "duration": 60,
+            "airplane": "Airbus A320neo",
+            "airline": "Air India",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "travel_class": "Economy",
+            "flight_number": "AI 1719",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "In-seat power & USB outlets",
+              "Stream media to your device",
+              "Carbon emissions estimate: 36 kg"
+            ]
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 65,
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL"
+          }
+        ],
+        "total_duration": 255,
+        "carbon_emissions": {
+          "this_flight": 143000,
+          "typical_for_this_route": 85000,
+          "difference_percent": 68
+        },
+        "price": 14454,
+        "type": "Round trip",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+        "departure_token": "WyJDalJJVTFWMFkzQldValJQZUhOQlFtZExZM2RDUnkwdExTMHRMUzB0TFMxMmRIUnROMEZCUVVGQlIyeDNXa1kwU1VSdWEzRkJFZzFCU1RFNE16aDhRVWt4TnpFNUdnb0k5bkFRQUJvRFNVNVNPQnh3elhzPSIsW1siUE5RIiwiMjAyNi0wMy0xMCIsIkRFTCIsbnVsbCwiQUkiLCIxODM4Il0sWyJERUwiLCIyMDI2LTAzLTEwIiwiSkFJIixudWxsLCJBSSIsIjE3MTkiXV1d"
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Pune International Airport",
+              "id": "PNQ",
+              "time": "2026-03-10 15:15"
+            },
+            "arrival_airport": {
+              "name": "Jaipur International Airport",
+              "id": "JAI",
+              "time": "2026-03-10 17:00"
+            },
+            "duration": 105,
+            "airplane": "Boeing 737MAX 8 Passenger",
+            "airline": "Air India Express",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IX.png",
+            "travel_class": "Economy",
+            "flight_number": "IX 2458",
+            "ticket_also_sold_by": [
+              "Air India"
+            ],
+            "extensions": [
+              "Carbon emissions estimate: 91 kg"
+            ]
+          }
+        ],
+        "total_duration": 105,
+        "carbon_emissions": {
+          "this_flight": 92000,
+          "typical_for_this_route": 85000,
+          "difference_percent": 8
+        },
+        "price": 16045,
+        "type": "Round trip",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IX.png",
+        "departure_token": "WyJDalJJVTFWMFkzQldValJQZUhOQlFtZExZM2RDUnkwdExTMHRMUzB0TFMxMmRIUnROMEZCUVVGQlIyeDNXa1kwU1VSdWEzRkJFZ1pKV0RJME5UZ2FDZ2l0ZlJBQUdnTkpUbEk0SEhDYWlRRT0iLFtbIlBOUSIsIjIwMjYtMDMtMTAiLCJKQUkiLG51bGwsIklYIiwiMjQ1OCJdXV0="
+      }
+    ],
+    "other_flights": [
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Pune International Airport",
+              "id": "PNQ",
+              "time": "2026-03-10 04:40"
+            },
+            "arrival_airport": {
+              "name": "Sardar Vallabhbhai Patel International Airport",
+              "id": "AMD",
+              "time": "2026-03-10 06:10"
+            },
+            "duration": 90,
+            "airplane": "Airbus A320neo",
+            "airline": "IndiGo",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "travel_class": "Economy",
+            "flight_number": "6E 819",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "Carbon emissions estimate: 54 kg"
+            ],
+            "overnight": true
+          },
+          {
+            "departure_airport": {
+              "name": "Sardar Vallabhbhai Patel International Airport",
+              "id": "AMD",
+              "time": "2026-03-10 10:35"
+            },
+            "arrival_airport": {
+              "name": "Jaipur International Airport",
+              "id": "JAI",
+              "time": "2026-03-10 12:10"
+            },
+            "duration": 95,
+            "airplane": "ATR 72",
+            "airline": "IndiGo",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "travel_class": "Economy",
+            "flight_number": "6E 7145",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "Carbon emissions estimate: 49 kg"
+            ]
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 265,
+            "name": "Sardar Vallabhbhai Patel International Airport",
+            "id": "AMD"
+          }
+        ],
+        "total_duration": 450,
+        "carbon_emissions": {
+          "this_flight": 104000,
+          "typical_for_this_route": 85000,
+          "difference_percent": 22
+        },
+        "price": 12886,
+        "type": "Round trip",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+        "departure_token": "WyJDalJJVTFWMFkzQldValJQZUhOQlFtZExZM2RDUnkwdExTMHRMUzB0TFMxMmRIUnROMEZCUVVGQlIyeDNXa1kwU1VSdWEzRkJFZ3cyUlRneE9YdzJSVGN4TkRVYUNnaldaQkFBR2dOSlRsSTRISENaYmc9PSIsW1siUE5RIiwiMjAyNi0wMy0xMCIsIkFNRCIsbnVsbCwiNkUiLCI4MTkiXSxbIkFNRCIsIjIwMjYtMDMtMTAiLCJKQUkiLG51bGwsIjZFIiwiNzE0NSJdXV0="
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Pune International Airport",
+              "id": "PNQ",
+              "time": "2026-03-10 22:45"
+            },
+            "arrival_airport": {
+              "name": "Sardar Vallabhbhai Patel International Airport",
+              "id": "AMD",
+              "time": "2026-03-11 00:15"
+            },
+            "duration": 90,
+            "airplane": "Airbus A320neo",
+            "airline": "IndiGo",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "travel_class": "Economy",
+            "flight_number": "6E 547",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "Carbon emissions estimate: 54 kg"
+            ]
+          },
+          {
+            "departure_airport": {
+              "name": "Sardar Vallabhbhai Patel International Airport",
+              "id": "AMD",
+              "time": "2026-03-11 06:15"
+            },
+            "arrival_airport": {
+              "name": "Jaipur International Airport",
+              "id": "JAI",
+              "time": "2026-03-11 07:50"
+            },
+            "duration": 95,
+            "airplane": "ATR 72",
+            "airline": "IndiGo",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "travel_class": "Economy",
+            "flight_number": "6E 7114",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "Carbon emissions estimate: 49 kg"
+            ]
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 360,
+            "name": "Sardar Vallabhbhai Patel International Airport",
+            "id": "AMD",
+            "overnight": true
+          }
+        ],
+        "total_duration": 545,
+        "carbon_emissions": {
+          "this_flight": 104000,
+          "typical_for_this_route": 85000,
+          "difference_percent": 22
+        },
+        "price": 12886,
+        "type": "Round trip",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+        "departure_token": "WyJDalJJVTFWMFkzQldValJQZUhOQlFtZExZM2RDUnkwdExTMHRMUzB0TFMxMmRIUnROMEZCUVVGQlIyeDNXa1kwU1VSdWEzRkJFZ3cyUlRVME4zdzJSVGN4TVRRYUNnaldaQkFBR2dOSlRsSTRISENaYmc9PSIsW1siUE5RIiwiMjAyNi0wMy0xMCIsIkFNRCIsbnVsbCwiNkUiLCI1NDciXSxbIkFNRCIsIjIwMjYtMDMtMTEiLCJKQUkiLG51bGwsIjZFIiwiNzExNCJdXV0="
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Pune International Airport",
+              "id": "PNQ",
+              "time": "2026-03-10 00:35"
+            },
+            "arrival_airport": {
+              "name": "Indira Gandhi International Airport",
+              "id": "DEL",
+              "time": "2026-03-10 02:50"
+            },
+            "duration": 135,
+            "airplane": "Airbus A320neo",
+            "airline": "Air India",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "travel_class": "Economy",
+            "flight_number": "AI 2608",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "In-seat USB outlet",
+              "Stream media to your device",
+              "Carbon emissions estimate: 106 kg"
+            ],
+            "overnight": true
+          },
+          {
+            "departure_airport": {
+              "name": "Indira Gandhi International Airport",
+              "id": "DEL",
+              "time": "2026-03-10 07:10"
+            },
+            "arrival_airport": {
+              "name": "Jaipur International Airport",
+              "id": "JAI",
+              "time": "2026-03-10 07:55"
+            },
+            "duration": 45,
+            "airplane": "Airbus A319",
+            "airline": "Air India",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "travel_class": "Economy",
+            "flight_number": "AI 1767",
+            "legroom": "31 in",
+            "extensions": [
+              "Average legroom (31 in)",
+              "Stream media to your device",
+              "Carbon emissions estimate: 55 kg"
+            ]
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 260,
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "overnight": true
+          }
+        ],
+        "total_duration": 440,
+        "carbon_emissions": {
+          "this_flight": 162000,
+          "typical_for_this_route": 85000,
+          "difference_percent": 91
+        },
+        "price": 14454,
+        "type": "Round trip",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+        "departure_token": "WyJDalJJVTFWMFkzQldValJQZUhOQlFtZExZM2RDUnkwdExTMHRMUzB0TFMxMmRIUnROMEZCUVVGQlIyeDNXa1kwU1VSdWEzRkJFZzFCU1RJMk1EaDhRVWt4TnpZM0dnb0k5bkFRQUJvRFNVNVNPQnh3elhzPSIsW1siUE5RIiwiMjAyNi0wMy0xMCIsIkRFTCIsbnVsbCwiQUkiLCIyNjA4Il0sWyJERUwiLCIyMDI2LTAzLTEwIiwiSkFJIixudWxsLCJBSSIsIjE3NjciXV1d"
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Pune International Airport",
+              "id": "PNQ",
+              "time": "2026-03-10 22:00"
+            },
+            "arrival_airport": {
+              "name": "Indira Gandhi International Airport",
+              "id": "DEL",
+              "time": "2026-03-11 00:15"
+            },
+            "duration": 135,
+            "airplane": "Airbus A320neo",
+            "airline": "Air India",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "travel_class": "Economy",
+            "flight_number": "AI 1804",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "In-seat power & USB outlets",
+              "Stream media to your device",
+              "Carbon emissions estimate: 99 kg"
+            ]
+          },
+          {
+            "departure_airport": {
+              "name": "Indira Gandhi International Airport",
+              "id": "DEL",
+              "time": "2026-03-11 07:10"
+            },
+            "arrival_airport": {
+              "name": "Jaipur International Airport",
+              "id": "JAI",
+              "time": "2026-03-11 07:55"
+            },
+            "duration": 45,
+            "airplane": "Airbus A319",
+            "airline": "Air India",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "travel_class": "Economy",
+            "flight_number": "AI 1767",
+            "legroom": "31 in",
+            "extensions": [
+              "Average legroom (31 in)",
+              "Stream media to your device",
+              "Carbon emissions estimate: 55 kg"
+            ]
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 415,
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "overnight": true
+          }
+        ],
+        "total_duration": 595,
+        "carbon_emissions": {
+          "this_flight": 154000,
+          "typical_for_this_route": 85000,
+          "difference_percent": 81
+        },
+        "price": 14454,
+        "type": "Round trip",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+        "departure_token": "WyJDalJJVTFWMFkzQldValJQZUhOQlFtZExZM2RDUnkwdExTMHRMUzB0TFMxMmRIUnROMEZCUVVGQlIyeDNXa1kwU1VSdWEzRkJFZzFCU1RFNE1EUjhRVWt4TnpZM0dnb0k5bkFRQUJvRFNVNVNPQnh3elhzPSIsW1siUE5RIiwiMjAyNi0wMy0xMCIsIkRFTCIsbnVsbCwiQUkiLCIxODA0Il0sWyJERUwiLCIyMDI2LTAzLTExIiwiSkFJIixudWxsLCJBSSIsIjE3NjciXV1d"
+      }
+    ],
+    "price_insights": {
+      "lowest_price": 12728,
+      "price_level": "typical",
+      "typical_price_range": [
+        11000,
+        13000
+      ],
+      "price_history": [
+        [
+          1763749800,
+          12013
+        ],
+        [
+          1763836200,
+          12517
+        ],
+        [
+          1763922600,
+          12517
+        ],
+        [
+          1764009000,
+          12282
+        ],
+        [
+          1764095400,
+          10728
+        ],
+        [
+          1764181800,
+          10728
+        ],
+        [
+          1764268200,
+          10728
+        ],
+        [
+          1764354600,
+          10728
+        ],
+        [
+          1764441000,
+          10728
+        ],
+        [
+          1764527400,
+          10728
+        ],
+        [
+          1764613800,
+          12717
+        ],
+        [
+          1764700200,
+          12717
+        ],
+        [
+          1764786600,
+          12717
+        ],
+        [
+          1764873000,
+          12717
+        ],
+        [
+          1764959400,
+          12717
+        ],
+        [
+          1765045800,
+          12717
+        ],
+        [
+          1765132200,
+          13048
+        ],
+        [
+          1765218600,
+          13048
+        ],
+        [
+          1765305000,
+          13048
+        ],
+        [
+          1765391400,
+          13048
+        ],
+        [
+          1765477800,
+          13048
+        ],
+        [
+          1765564200,
+          13048
+        ],
+        [
+          1765650600,
+          13048
+        ],
+        [
+          1765737000,
+          13048
+        ],
+        [
+          1765823400,
+          12413
+        ],
+        [
+          1765909800,
+          12413
+        ],
+        [
+          1765996200,
+          12413
+        ],
+        [
+          1766082600,
+          12413
+        ],
+        [
+          1766169000,
+          12413
+        ],
+        [
+          1766255400,
+          12465
+        ],
+        [
+          1766341800,
+          12465
+        ],
+        [
+          1766428200,
+          12465
+        ],
+        [
+          1766514600,
+          12465
+        ],
+        [
+          1766601000,
+          12465
+        ],
+        [
+          1766687400,
+          12465
+        ],
+        [
+          1766773800,
+          12465
+        ],
+        [
+          1766860200,
+          12465
+        ],
+        [
+          1766946600,
+          12465
+        ],
+        [
+          1767033000,
+          12716
+        ],
+        [
+          1767119400,
+          12527
+        ],
+        [
+          1767205800,
+          12527
+        ],
+        [
+          1767292200,
+          12728
+        ],
+        [
+          1767378600,
+          12728
+        ],
+        [
+          1767465000,
+          12527
+        ],
+        [
+          1767551400,
+          12527
+        ],
+        [
+          1767637800,
+          12527
+        ],
+        [
+          1767724200,
+          12527
+        ],
+        [
+          1767810600,
+          12527
+        ],
+        [
+          1767897000,
+          12527
+        ],
+        [
+          1767983400,
+          12527
+        ],
+        [
+          1768069800,
+          12527
+        ],
+        [
+          1768156200,
+          12632
+        ],
+        [
+          1768242600,
+          11024
+        ],
+        [
+          1768329000,
+          11174
+        ],
+        [
+          1768415400,
+          11174
+        ],
+        [
+          1768501800,
+          11174
+        ],
+        [
+          1768588200,
+          11959
+        ],
+        [
+          1768674600,
+          12728
+        ],
+        [
+          1768761000,
+          12728
+        ],
+        [
+          1768847400,
+          12728
+        ],
+        [
+          1768933800,
+          12728
+        ]
+      ]
+    }
+  }
+}

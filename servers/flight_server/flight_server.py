@@ -2,7 +2,7 @@
 
 # https://serpapi.com/google-flights-api
 
-FLIGHT_DIR = "flight"
+FLIGHT_DIR = "D:\\TravelAssistant\\flight"
 
 import os
 import requests
@@ -12,6 +12,7 @@ from mcp.server.fastmcp import FastMCP
 from typing import Dict, Any, Optional
 from datetime import datetime
 load_dotenv()
+mcp = FastMCP("flight-server")
 # from utils import getApiKey
 def getApiKey():
     api_key = os.getenv("SERPAPI_KEY")
@@ -29,12 +30,12 @@ params = {
     "outbound_date": '2026-03-15',
     "adults": "2",
     "children": "0",
-    "type": "2",
+    "type": "1",
     "currency": "INR",
     "sort_by": "Price"  # default Top flights
 }
 
-# @mcp.tool()
+@mcp.tool()
 def search_flight(
     departure_id: str,
     arrival_id: str,
@@ -65,7 +66,7 @@ def search_flight(
         country: Country code for search (default: 'ind')
         language: Language code (default: 'en')
         max_results: Maximum number of results to store (default: 10)
-        "type": "2", 
+        "type": "2", type = 2 if trip is one way, if there is return trip then type = 1 
         "currency": "INR",
         "sort_by": "Price"
     
@@ -93,28 +94,32 @@ def search_flight(
             "max_results": max_results
 
         }
-        print("couldn't executre search_flight tool")
 
         if trip_type == 1 and return_date:
             params["return_date"] = return_date
         elif trip_type == 1:
-            return {"error: Round trip flight must have return date"}
+            return {"error": "Round trip flight must have return date"}
 
         try:
             api_result = requests.get('https://serpapi.com/search', params)
             api_result.raise_for_status()
 
             flight_data = api_result.json()
-        except:
-            return {"error: Error while requesting API call."}
+        except Exception as e:
+            return {"error": f"Error while requesting API call: {str(e)}"}
+
     
         os.makedirs(FLIGHT_DIR,exist_ok=True)
 
 
         search_id = f"{departure_id}_{arrival_id}_{outbound_date}"
         if return_date:
-            search_id+=f"_{return_date}"
-        search_id+=f"_{datetime.now()}"
+            search_id += f"_{return_date}"
+
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        search_id += f"_{timestamp}"
+
+
 
         flight_filedata = {
             "search_data": {
@@ -133,17 +138,18 @@ def search_flight(
             "search_results": {
                 "best_flights": flight_data.get("best_flights", [])[:max_results],
                 "other_flights": flight_data.get("other_flights", [])[:max_results],
-                "price_insights": flight_data.get("price_insights", [])[:max_results]            
+                "price_insights": flight_data.get("price_insights", {})         
             },
         }
 
 
-        flight_data_file = os.path.json(FLIGHT_DIR,f"{search_flight}.json")
+        flight_data_file = os.path.join(FLIGHT_DIR,f"{search_id}.json")
 
         with open(flight_data_file,"w") as f:
             json.dump(flight_filedata,f,indent=2)
 
         summary = {
+            # "search_id": search_id,
             "route": f"{departure_id} → {arrival_id}",
             "trip_type": "Round Trip" if return_date else "One Way",
             "dates": {
@@ -173,7 +179,7 @@ def search_flight(
         return {"error": str(e)}
 
 
-# @mcp.tool()
+@mcp.tool()
 def get_flight_details(search_id:str) ->str:
     """
     search flight informatio for unique search_id.
@@ -185,7 +191,7 @@ def get_flight_details(search_id:str) ->str:
         Json string with flights information
     """
     file = os.path.join(FLIGHT_DIR,f"{search_id}.json")
-    if not os.path.exist(file):
+    if not os.path.exists(file):
         return f"no flight with search id {search_id} found"
     try:
         with open(file,"r") as f:
@@ -195,8 +201,7 @@ def get_flight_details(search_id:str) ->str:
         return f"Error while reading file data for search id : {search_id}"
 
 
-
-#@mpc.tool()
+@mcp.tool()
 def filter_flights_by_price(search_id:str,min_price:Optional[float] = None,max_price:Optional[float] = None)->str:
     """
     Filters flights that costs between min_price and max_price
@@ -249,13 +254,13 @@ def filter_flights_by_price(search_id:str,min_price:Optional[float] = None,max_p
             "total filtered flights:": len(filtered_best_flights) + len(filtered_other_flights)
         }
     
-        return json.dump(result,indent=2)
+        return json.dumps(result,indent=2)
 
     except:
         return f"Error in processing flight data for {search_id}"
         
 
-@mpc.resource("flights://searches")
+@mcp.resource("flights://searches")
 def get_flight_searches() -> str:
     """
     This resource provides list of all saved flight searches
@@ -292,8 +297,8 @@ def get_flight_searches() -> str:
         current_flight_info+=f"Departure date and time: {dep_airport_time} \n"
         
         if search['search_parameters'].get(type) == 1:
-            current_flight_info+=f"Arrival Airport: {arr_airport_name} \n"
-            current_flight_info+=f"Departure date and time: {arr_airport_time} \n"
+            current_flight_info+=f"return Airport: {arr_airport_name} \n"
+            current_flight_info+=f"return date and time: {arr_airport_time} \n"
         current_flight_info+=f"Flight Price: {price} \n"
 
         content+=current_flight_info
@@ -337,8 +342,8 @@ def get_flight_search_details(search_id:str) ->str:
             current_flight_info+=f"Departure date and time: {dep_airport_time} \n"
             
             if search_parameters.get(type) == 1:
-                current_flight_info+=f"Arrival Airport: {arr_airport_name} \n"
-                current_flight_info+=f"Departure date and time: {arr_airport_time} \n"
+                current_flight_info+=f"return Airport: {arr_airport_name} \n"
+                current_flight_info+=f"return date and time: {arr_airport_time} \n"
             current_flight_info+=f"Flight Price: {price} \n"
 
             content+=current_flight_info
@@ -369,7 +374,7 @@ def get_flight_search_details(search_id:str) ->str:
     return content
 
 
-@mcp.prompts()
+@mcp.prompt()
 def travel_planning_prompt(
     departure: str,
     destination: str,
@@ -417,15 +422,34 @@ def travel_planning_prompt(
 
     return prompt
 
+@mcp.prompt()
+def flight_comparison_promtp(
+    search_id: str
+) -> str:
+    prompt = f"Analyze and compare all the flights from options with search id {search_id} \n"
+    prompt+=f"""
+        use get_flight_search_details() resource to get data about all flights with searc id {search_id} 
+        best flights: 
+            - choose best flight options from the available flight list
+            - select top 3 - 5 flight list
+            - consider flight price to value ratio
+
+        flight price comparison:
+            - get flight price comparison across all available list of flights
+            - consider departure and arrival time convenience
+            
+        flight suggestion: 
+            - use filter_by_price to choose budget friendly price if asked
+            - prefer direct flights over connections
+
+        decision recommendation:
+            - suggest 3-5 top flights with these considerations and suitable for user
+
+        please format output in clean, structured and easy to read for user.
+
+    """
+
+    return prompt
 
 if __name__ == "__main__":
-    # Basic smoke test
-    result = search_flight(
-        departure_id="PNQ",
-        arrival_id="DEL",
-        outbound_date="2026-03-15",
-        trip_type=2,
-        adults=1
-    )
-
-    print(json.dumps(result, indent=2))
+    mcp.run(transport = "stdio")
