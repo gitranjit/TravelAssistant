@@ -2,7 +2,7 @@
 
 # https://serpapi.com/google-flights-api
 
-FLIGHT_DIR = "D:\\TravelAssistant\\flight"
+FLIGHT_DIR = "D:\\TravelAssistant\\flight_server"
 
 import os
 import requests
@@ -149,7 +149,7 @@ def search_flight(
             json.dump(flight_filedata,f,indent=2)
 
         summary = {
-            # "search_id": search_id,
+            "search_id": search_id,
             "route": f"{departure_id} → {arrival_id}",
             "trip_type": "Round Trip" if return_date else "One Way",
             "dates": {

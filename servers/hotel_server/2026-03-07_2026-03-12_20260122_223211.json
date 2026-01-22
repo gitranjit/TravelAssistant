@@ -1,0 +1,1342 @@
+{
+  "search_metadata": {
+    "id": "69725813fbe53b14f48594cc",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/6c1d2caf58f6ba15/69725813fbe53b14f48594cc.json",
+    "created_at": "2026-01-22T17:02:11.328Z",
+    "processed_at": "2026-01-22T17:02:11.329Z",
+    "google_hotels_url": "https://www.google.com/_/TravelFrontendUi/data/batchexecute?rpcids=AtySUc&source-path=/travel/search&hl=en&gl=us&rt=c&soc-app=162&soc-platform=1&soc-device=1",
+    "raw_html_file": "https://serpapi.com/searches/6c1d2caf58f6ba15/69725813fbe53b14f48594cc.html",
+    "prettify_html_file": "https://serpapi.com/searches/6c1d2caf58f6ba15/69725813fbe53b14f48594cc.prettify",
+    "total_time_taken": {
+      "float": 2.1469473838806152
+    }
+  },
+  "search_parameters": {
+    "engine": "google_hotels",
+    "q": "hampi",
+    "gl": "us",
+    "hl": "en",
+    "currency": "INR",
+    "check_in_date": "2026-03-07",
+    "check_out_date": "2026-03-12",
+    "adults": 2,
+    "children": 0,
+    "sort_by": "8",
+    "hotel_class": "2"
+  },
+  "search_information": {
+    "total_results": 7
+  },
+  "brands": [
+    {
+      "id": 353,
+      "name": "OYO"
+    }
+  ],
+  "properties": [
+    {
+      "type": "hotel",
+      "name": "Mayuram Home Stay",
+      "property_token": "ChoI6LKejomot-y9ARoNL2cvMTFjbGc3NV9wNxAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-07&check_out_date=2026-03-12&children=0&currency=INR&engine=google_hotels&gl=us&hl=en&hotel_class=2&property_token=ChoI6LKejomot-y9ARoNL2cvMTFjbGc3NV9wNxAB&q=hampi&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 15.3359555,
+        "longitude": 76.46004599999999
+      },
+      "check_in_time": "2:00\u202fPM",
+      "nearby_places": [
+        {
+          "name": "Virupaksha Temple, Hampi",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "Jindal Vijaynagar Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 9 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "8 hr 16 min"
+            }
+          ]
+        },
+        {
+          "name": "Ganesh Roof top Restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "2-star hotel",
+      "extracted_hotel_class": 2,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSw-trwgfK2m9EUdBj-rHTN_ww8l-sISjDtVvc8DC2lSLHMUktWjxRyVrjO57ehf2cxa0Qs0CQfkmtoiXLsGl8tcAfxdjjF0FArhdaCSKbTJQfxRKM_T1Mt0b2QE60w2RQMLbH-nlg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDc-dHHxAE=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/l1Wr8L_wLvqOfwECQUPqBGwGe-OOb-UooXiPqB52nJt8sM6KCBar-iJ7MzK0vXniBs1-uDRX0YjcOT9UFdS7oq-B70ExcxSCWoH0vDFz502g7phqdJAQfT0-y03ChnEhgWlfx-2KNWRtYIvJHhJ-cTBRRFDRQSE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/23/40/57/photo1jpg.jpg?w=1900&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzGnSYnxCH2tQGNYyTSUrtm_xmXefxWSQQqA2na2Q6lfI8lmkaKm0p4NB6ePLQebt7B1BAev5i0R_hbitx5K1I1cy1A9ZyVfjJm20PlreEfAPrfcxWsbTRhJsB-pTgcxjWjG1z-=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICmufqIFA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwCscmWmOwquJSiaXFR9BryFBWOjxNld3QU6Cvt-vb_vk6NS483ejggJ8MUcKP8PCrpCwjfW4jOe5vSh-DsZQhaiuy4zGQFw493eVIgqL2adbUI3Sj04HR0RkPbkRbZ3IhxrBo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICmufqIZA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyzgzFUzZje362Rh0dPXHvzt_1-gRl7YpbhePEUOuHTLFUbrZoK1aom5Ay09si3_141zwhrP2ULglpdUotkUwvtflqyOuwLh0Hk_mZKsFv6_DLbk04E0-XPwik145h6gZm_YQgx=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDuu7ef9QE=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/3YNfyXc_FT13_FN_IdZ_pZ9QS46EpVOntwQ7f55-FzXKqvsy24tU1UXFRnJPVkaS_rhzc90w-d4yH22JXgyMVwDOMNjO0NUpNk_9yKLd0K55gAAedJA2IruPMy73tkCzPfd7Nfc734fvBoM__nj-jXZW90s_i6M=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/85/66/99/mayuram-home-stay.jpg?w=1300&h=700&s=1"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/LUoJMg8VlrM55UFVlTpIylhTWKSt2n50Jk1dJRSgBUF26fNx5I5X_ShAf27sCp8KIB-spql2MBxaK7_Bl9CUVY0iB7p_HLJrmPzBMWYOUSYUCNKEiX-fhlelzavPrNJ1gB4x6wDpGi_pTX6TtlTcgwJ5gu-wJQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/e8/51/8b/img-20160903-160611-largejpg.jpg?w=1000&h=800&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/vQgtZCmPMkHPoQNn8eUKENsV6ontdhowqlr9hf25hqGJcQjC_ZO0UTKEd7Nmh7LmlzumMb6kp0MwJXPZVXlRKTi506_zwbmpariEFfBcbVRnIybdo6vGmxBV55cCzN4LYlEVyTK2ViLdNusKjgI1-VFhKwYVKg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/e8/51/8c/img-20160903-133124-largejpg.jpg?w=1000&h=800&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/MoNr7TqNCcp6tKPo8ST-WXvHriKXv0KCvraKT3VdHtFrM24pX7Jnyz_Jg9l9qfIIJqES7xuC-8uEO0fMSjOrVk-g8R64J9Rb-Qr1ksxQ1zk3BjugbYGyeZoD10vmooYEBFEsJygD-ZQeLE5xC15_ZVRVPbRcyTU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/8d/40/89/mayuram-home-stay.jpg?w=1900&h=1400&s=1"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 188,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 124
+        },
+        {
+          "stars": 4,
+          "count": 44
+        },
+        {
+          "stars": 3,
+          "count": 14
+        },
+        {
+          "stars": 2,
+          "count": 3
+        },
+        {
+          "stars": 1,
+          "count": 3
+        }
+      ],
+      "location_rating": 4.4,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 64,
+          "positive": 51,
+          "negative": 1,
+          "neutral": 12,
+          "category_token": "jLN0PHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cIZwEAzmAM3g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=jLN0PHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cIZwEAzmAM3g&engine=google_hotels_reviews&hl=en&property_token=ChoI6LKejomot-y9ARoNL2cvMTFjbGc3NV9wNxAB"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 78,
+          "positive": 74,
+          "negative": 2,
+          "neutral": 2,
+          "category_token": "DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA&engine=google_hotels_reviews&hl=en&property_token=ChoI6LKejomot-y9ARoNL2cvMTFjbGc3NV9wNxAB"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 35,
+          "positive": 34,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "JXKy3Xica1yRnFiSmp5fVDl5tXNOamJeTmZeanExIzIHACQKD1Q",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=JXKy3Xica1yRnFiSmp5fVDl5tXNOamJeTmZeanExIzIHACQKD1Q&engine=google_hotels_reviews&hl=en&property_token=ChoI6LKejomot-y9ARoNL2cvMTFjbGc3NV9wNxAB"
+        },
+        {
+          "name": "Wi-Fi",
+          "description": "Wi-Fi",
+          "total_mentioned": 18,
+          "positive": 14,
+          "negative": 2,
+          "neutral": 2,
+          "category_token": "g-5XQHica1yRnFiSmp5fVDl5aXimrlsmI4QCAIJcCZ4",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=g-5XQHica1yRnFiSmp5fVDl5aXimrlsmI4QCAIJcCZ4&engine=google_hotels_reviews&hl=en&property_token=ChoI6LKejomot-y9ARoNL2cvMTFjbGc3NV9wNxAB"
+        },
+        {
+          "name": "Room",
+          "description": "Room amenities",
+          "total_mentioned": 33,
+          "positive": 23,
+          "negative": 6,
+          "neutral": 4,
+          "category_token": "Rr34mHica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmox4xIQHwDoCw2H",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=Rr34mHica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmox4xIQHwDoCw2H&engine=google_hotels_reviews&hl=en&property_token=ChoI6LKejomot-y9ARoNL2cvMTFjbGc3NV9wNxAB"
+        },
+        {
+          "name": "Sleep",
+          "description": "Sleep",
+          "total_mentioned": 11,
+          "positive": 7,
+          "negative": 2,
+          "neutral": 2,
+          "category_token": "WYlIUnica1yRnFiSmp5fVDl5aXBOamoBI4QCAIaxClg",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=WYlIUnica1yRnFiSmp5fVDl5aXBOamoBI4QCAIaxClg&engine=google_hotels_reviews&hl=en&property_token=ChoI6LKejomot-y9ARoNL2cvMTFjbGc3NV9wNxAB"
+        }
+      ],
+      "amenities": [
+        "Wi-Fi",
+        "Air conditioning",
+        "Room service",
+        "Kitchen in some rooms",
+        "Full-service laundry",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoI6LKejomot-y9ARoNL2cvMTFjbGc3NV9wNxAB"
+    },
+    {
+      "type": "hotel",
+      "name": "Thilak Home Stay",
+      "property_token": "ChoIoLfvscCghK6_ARoNL2cvMTFjbXNtd3czchAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-07&check_out_date=2026-03-12&children=0&currency=INR&engine=google_hotels&gl=us&hl=en&hotel_class=2&property_token=ChoIoLfvscCghK6_ARoNL2cvMTFjbXNtd3czchAB&q=hampi&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 15.336034699999999,
+        "longitude": 76.46090509999999
+      },
+      "check_in_time": "10:00\u202fAM",
+      "check_out_time": "10:00\u202fAM",
+      "rate_per_night": {
+        "lowest": "\u20b92,625",
+        "extracted_lowest": 2625,
+        "before_taxes_fees": "\u20b92,500",
+        "extracted_before_taxes_fees": 2500
+      },
+      "total_rate": {
+        "lowest": "\u20b913,125",
+        "extracted_lowest": 13125,
+        "before_taxes_fees": "\u20b912,500",
+        "extracted_before_taxes_fees": 12500
+      },
+      "deal": "18% less than usual",
+      "deal_description": "Deal",
+      "nearby_places": [
+        {
+          "name": "Group of Monuments at Hampi",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Jindal Vijaynagar Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 10 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "8 hr 16 min"
+            }
+          ]
+        },
+        {
+          "name": "Trishul Restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "2-star hotel",
+      "extracted_hotel_class": 2,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM12G16trfzDHu1IX-WBsoj188kpmpqVBTuW4kd=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM12G16trfzDHu1IX-WBsoj188kpmpqVBTuW4kd=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/CPl-JVkoYLYthDMvrYt1kNpYTRVcNlPKJUpXJd0GQGFn_HqXgHHOqFqQ8ZMuZ8liRglxNzow8szGzFyjlr_GbgtPdgexCuCfm2vopeJ2MkjsJ955-o-_NKDHrxz08vXZ4dOTIyYJMIzoDsOY0ZvimrNMdE51hw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/91/ac/43/thilak-home-stay.jpg?w=2100&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMbULaqoGdPPGOzmD_9cwqGX1vtl6Zx6es1_Mzp=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMbULaqoGdPPGOzmD_9cwqGX1vtl6Zx6es1_Mzp=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNC8bx36vaYKqe69El9Ah0KdKQ8ty-bvp73rr7r=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNC8bx36vaYKqe69El9Ah0KdKQ8ty-bvp73rr7r=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPPVQgRTcCwe9yDvqMIg_qRIjJkkpl0lLs6bZ2v=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPPVQgRTcCwe9yDvqMIg_qRIjJkkpl0lLs6bZ2v=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPHrsRFCHms7fVvwZL4CjlexfEszSV68YsgsDYX=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPHrsRFCHms7fVvwZL4CjlexfEszSV68YsgsDYX=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/uvVxSQdOmxlfSfnpib3Ayei9UB7pcrP1iBZeQ2T7MP1_sSVmNUpMukAcQRGFrmDuXhzP2FdrAP71ZATjj95lK0Wm1NPMLHsBbG96KVVGkFkfdeHYUtZ_IOrUZOgzKPaw0-eGPx65vXBAqymclh6Xhz-vKgeK6Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/ca/93/f7/chill-out-restaurant.jpg?w=2100&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOaITHUqP10XErNcnB1JTi2DO6tgkqhlx-duEy6=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOaITHUqP10XErNcnB1JTi2DO6tgkqhlx-duEy6=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPDQuVg1Pz7VySoTpg_Ag5IzJzkNWtYx5qoRtnj=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPDQuVg1Pz7VySoTpg_Ag5IzJzkNWtYx5qoRtnj=s10000"
+        }
+      ],
+      "overall_rating": 4.4,
+      "reviews": 282,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 182
+        },
+        {
+          "stars": 4,
+          "count": 55
+        },
+        {
+          "stars": 3,
+          "count": 31
+        },
+        {
+          "stars": 2,
+          "count": 8
+        },
+        {
+          "stars": 1,
+          "count": 6
+        }
+      ],
+      "location_rating": 4.6,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 74,
+          "positive": 66,
+          "negative": 0,
+          "neutral": 8,
+          "category_token": "jLN0PHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cIZwEAzmAM3g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=jLN0PHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cIZwEAzmAM3g&engine=google_hotels_reviews&hl=en&property_token=ChoIoLfvscCghK6_ARoNL2cvMTFjbXNtd3czchAB"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 68,
+          "positive": 62,
+          "negative": 4,
+          "neutral": 2,
+          "category_token": "JXKy3Xica1yRnFiSmp5fVDl5tXNOamJeTmZeanExIzIHACQKD1Q",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=JXKy3Xica1yRnFiSmp5fVDl5tXNOamJeTmZeanExIzIHACQKD1Q&engine=google_hotels_reviews&hl=en&property_token=ChoIoLfvscCghK6_ARoNL2cvMTFjbXNtd3czchAB"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 110,
+          "positive": 105,
+          "negative": 3,
+          "neutral": 2,
+          "category_token": "DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA&engine=google_hotels_reviews&hl=en&property_token=ChoIoLfvscCghK6_ARoNL2cvMTFjbXNtd3czchAB"
+        },
+        {
+          "name": "Air Conditioning",
+          "description": "Air conditioning",
+          "total_mentioned": 21,
+          "positive": 17,
+          "negative": 2,
+          "neutral": 2,
+          "category_token": "PEJS2nica1yRnFiSmp5fVDl5g2NmkUJyfl5KZklmfl5mXjojWMQZSQQAyZ8S3g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=PEJS2nica1yRnFiSmp5fVDl5g2NmkUJyfl5KZklmfl5mXjojWMQZSQQAyZ8S3g&engine=google_hotels_reviews&hl=en&property_token=ChoIoLfvscCghK6_ARoNL2cvMTFjbXNtd3czchAB"
+        },
+        {
+          "name": "Bathroom",
+          "description": "Bathroom and toiletries",
+          "total_mentioned": 29,
+          "positive": 17,
+          "negative": 5,
+          "neutral": 7,
+          "category_token": "iMUWyHica1yRnFiSmp5fVDl5u1NiSUZRfn6uQmJeikJJfmZOaklRZmox4wqYBAC6wxKq",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=iMUWyHica1yRnFiSmp5fVDl5u1NiSUZRfn6uQmJeikJJfmZOaklRZmox4wqYBAC6wxKq&engine=google_hotels_reviews&hl=en&property_token=ChoIoLfvscCghK6_ARoNL2cvMTFjbXNtd3czchAB"
+        },
+        {
+          "name": "Room",
+          "description": "Room amenities",
+          "total_mentioned": 31,
+          "positive": 24,
+          "negative": 5,
+          "neutral": 2,
+          "category_token": "Rr34mHica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmox4xIQHwDoCw2H",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=Rr34mHica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmox4xIQHwDoCw2H&engine=google_hotels_reviews&hl=en&property_token=ChoIoLfvscCghK6_ARoNL2cvMTFjbXNtd3czchAB"
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoIoLfvscCghK6_ARoNL2cvMTFjbXNtd3czchAB"
+    },
+    {
+      "type": "hotel",
+      "name": "Archana Guesthouse riverview & Roof Restaurant",
+      "description": "Colourful rooms, some with a/c, in a simple property featuring a laid-back rooftop restaurant.",
+      "link": "https://sites.google.com/view/archanaguesthouse/",
+      "property_token": "ChoI0Mbm1tms3ZWIARoNL2cvMTFmOWY5OG1fbBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-07&check_out_date=2026-03-12&children=0&currency=INR&engine=google_hotels&gl=us&hl=en&hotel_class=2&property_token=ChoI0Mbm1tms3ZWIARoNL2cvMTFmOWY5OG1fbBAB&q=hampi&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 15.33639,
+        "longitude": 76.4602669
+      },
+      "check_in_time": "9:30\u202fAM",
+      "check_out_time": "9:30\u202fAM",
+      "rate_per_night": {
+        "lowest": "\u20b92,150",
+        "extracted_lowest": 2150,
+        "before_taxes_fees": "\u20b92,150",
+        "extracted_before_taxes_fees": 2150
+      },
+      "total_rate": {
+        "lowest": "\u20b910,751",
+        "extracted_lowest": 10751,
+        "before_taxes_fees": "\u20b910,751",
+        "extracted_before_taxes_fees": 10751
+      },
+      "nearby_places": [
+        {
+          "name": "Virupaksha Temple, Hampi",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Jindal Vijaynagar Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 10 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "8 hr 16 min"
+            }
+          ]
+        },
+        {
+          "name": "Gopi Guesthouse And Roof Restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "2-star hotel",
+      "extracted_hotel_class": 2,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOL6Ixx4g_1_TAvEIPwleY70vaHOHTDWVNoJOMK=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOL6Ixx4g_1_TAvEIPwleY70vaHOHTDWVNoJOMK=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/F9XqNe5_4j3l4xoysv9PbTaR0W1BkEGWXjCZxJm27mJrwLdYGMqUXFaMB2XSFe1TE7CXtRW5wBwpvae0R1NIATPlW3re-zzDGdCoi76148WG2hIUpdHyo4eEtswufCy3mJHw9ted4rEjGHG6EoSfDFRu5FcVLw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/8d/e4/37/caption.jpg?w=2100&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP57_XiNcu7TyYcxlz9X8kPOhj-3Klfchtxgswe=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP57_XiNcu7TyYcxlz9X8kPOhj-3Klfchtxgswe=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNskYjkmUfExPF2TUNS4xRxHDuVe3dDbiRdZ33L=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNskYjkmUfExPF2TUNS4xRxHDuVe3dDbiRdZ33L=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMqJYBnxTUgNR4hk7C_Pb-BemAstPv1pwXVUsqy=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMqJYBnxTUgNR4hk7C_Pb-BemAstPv1pwXVUsqy=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN5w51D945uII_oBeje5rCqBURRtkCZNXwKmVaS=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN5w51D945uII_oBeje5rCqBURRtkCZNXwKmVaS=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPh3VdUdjrvG_wxiYNNNpLqT9cFvAFDEBAH71xB=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPh3VdUdjrvG_wxiYNNNpLqT9cFvAFDEBAH71xB=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP_xPCq8sedwyNSXSN2ujaEqBnvSeG_dtyAlW0a=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP_xPCq8sedwyNSXSN2ujaEqBnvSeG_dtyAlW0a=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPgORD8dEKLrl1rPD1FicIepQgdU_9k-gnOKBN6=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPgORD8dEKLrl1rPD1FicIepQgdU_9k-gnOKBN6=s10000"
+        }
+      ],
+      "overall_rating": 4.2,
+      "reviews": 539,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 292
+        },
+        {
+          "stars": 4,
+          "count": 138
+        },
+        {
+          "stars": 3,
+          "count": 51
+        },
+        {
+          "stars": 2,
+          "count": 20
+        },
+        {
+          "stars": 1,
+          "count": 38
+        }
+      ],
+      "location_rating": 4.5,
+      "reviews_breakdown": [
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 133,
+          "positive": 113,
+          "negative": 13,
+          "neutral": 7,
+          "category_token": "2aMhPHica1yRnFiSmp5fVDl5o1t-fopCYl6KglNqWWpRYnoq4zKXzLzMvHQAKAwO6A",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=2aMhPHica1yRnFiSmp5fVDl5o1t-fopCYl6KglNqWWpRYnoq4zKXzLzMvHQAKAwO6A&engine=google_hotels_reviews&hl=en&property_token=ChoI0Mbm1tms3ZWIARoNL2cvMTFmOWY5OG1fbBAB"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 68,
+          "positive": 58,
+          "negative": 4,
+          "neutral": 6,
+          "category_token": "B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U&engine=google_hotels_reviews&hl=en&property_token=ChoI0Mbm1tms3ZWIARoNL2cvMTFmOWY5OG1fbBAB"
+        },
+        {
+          "name": "Family",
+          "description": "Family friendly",
+          "total_mentioned": 50,
+          "positive": 43,
+          "negative": 6,
+          "neutral": 1,
+          "category_token": "kuiVx3ica1yRnFiSmp5fVDl5vVtibmZOpUJaUWZqXkpOJeMyiAAAEmwOsg",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=kuiVx3ica1yRnFiSmp5fVDl5vVtibmZOpUJaUWZqXkpOJeMyiAAAEmwOsg&engine=google_hotels_reviews&hl=en&property_token=ChoI0Mbm1tms3ZWIARoNL2cvMTFmOWY5OG1fbBAB"
+        },
+        {
+          "name": "Nature",
+          "description": "Nature and outdoor activities",
+          "total_mentioned": 37,
+          "positive": 35,
+          "negative": 2,
+          "neutral": 0,
+          "category_token": "2kxK7Hica1yRnFiSmp5fVDl5r19iSWlRqkJiXopCfmlJSn5-kUJicklmWWZJZmox4zKINAAIZRQx",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=2kxK7Hica1yRnFiSmp5fVDl5r19iSWlRqkJiXopCfmlJSn5-kUJicklmWWZJZmox4zKINAAIZRQx&engine=google_hotels_reviews&hl=en&property_token=ChoI0Mbm1tms3ZWIARoNL2cvMTFmOWY5OG1fbBAB"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 163,
+          "positive": 140,
+          "negative": 18,
+          "neutral": 5,
+          "category_token": "DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA&engine=google_hotels_reviews&hl=en&property_token=ChoI0Mbm1tms3ZWIARoNL2cvMTFmOWY5OG1fbBAB"
+        },
+        {
+          "name": "Room",
+          "description": "Room amenities",
+          "total_mentioned": 74,
+          "positive": 53,
+          "negative": 17,
+          "neutral": 4,
+          "category_token": "Rr34mHica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmox4xIQHwDoCw2H",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=Rr34mHica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmox4xIQHwDoCw2H&engine=google_hotels_reviews&hl=en&property_token=ChoI0Mbm1tms3ZWIARoNL2cvMTFmOWY5OG1fbBAB"
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Pool",
+        "Air conditioning",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoI0Mbm1tms3ZWIARoNL2cvMTFmOWY5OG1fbBAB"
+    },
+    {
+      "type": "hotel",
+      "name": "Padmaa Hampi Villa",
+      "description": "Down-to-earth rooms, some with temple views, in a modest guesthouse offering a terrace & parking.",
+      "link": "https://padmaguesthouse.in/",
+      "property_token": "ChgIrvr36vDYl9iNARoLL2cvMXRrNjYzdjcQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-07&check_out_date=2026-03-12&children=0&currency=INR&engine=google_hotels&gl=us&hl=en&hotel_class=2&property_token=ChgIrvr36vDYl9iNARoLL2cvMXRrNjYzdjcQAQ&q=hampi&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 15.3343525,
+        "longitude": 76.46153389999999
+      },
+      "check_in_time": "9:00\u202fAM",
+      "check_out_time": "10:00\u202fAM",
+      "rate_per_night": {
+        "lowest": "\u20b91,890",
+        "extracted_lowest": 1890,
+        "before_taxes_fees": "\u20b91,800",
+        "extracted_before_taxes_fees": 1800
+      },
+      "total_rate": {
+        "lowest": "\u20b99,450",
+        "extracted_lowest": 9450,
+        "before_taxes_fees": "\u20b99,000",
+        "extracted_before_taxes_fees": 9000
+      },
+      "nearby_places": [
+        {
+          "name": "Group of Monuments at Hampi",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "Jindal Vijaynagar Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 4 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "8 hr 13 min"
+            }
+          ]
+        },
+        {
+          "name": "Annapurna Cafe And Restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "2-star hotel",
+      "extracted_hotel_class": 2,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP63XJ6JXWIchvqNh-Y00_gZ7RgaXHsv6yrGkb1=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP63XJ6JXWIchvqNh-Y00_gZ7RgaXHsv6yrGkb1=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyzKHJ33zG-k0eZpq0eRjoBYlC8F0N0O5V9ZUbCssndFeYM5u9DfdfoibqebppLDrao0EvgoP22XGbAMkZp0L-BlujW0bGuSeab0fiyeuFFKMrzLHR90cK4eBXY4uf7JQRJOrJG=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICcuri4fg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPYEHTvnrQ7EhbKkm6GGqpGDrCkoddWjCsxVpG4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPYEHTvnrQ7EhbKkm6GGqpGDrCkoddWjCsxVpG4=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNp9KFtKn3A95sus4Zhp7E3DbwyyUCorFEgdHJ4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNp9KFtKn3A95sus4Zhp7E3DbwyyUCorFEgdHJ4=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN-HqKnXaJudYzXU459FGncKgsrlSTl7O3vvqTp=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN-HqKnXaJudYzXU459FGncKgsrlSTl7O3vvqTp=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMGYXk2ECy7kjoC5WWsTCnshZdvqMUBGaI0BuDY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMGYXk2ECy7kjoC5WWsTCnshZdvqMUBGaI0BuDY=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP4NvLZ_8gGXv4RnQDgYhfxEwXaM58IS3s0Co9W=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP4NvLZ_8gGXv4RnQDgYhfxEwXaM58IS3s0Co9W=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM8bzO3Kxnq2EYd3wGi-XV69aJtc6Ndegr0Srq-=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM8bzO3Kxnq2EYd3wGi-XV69aJtc6Ndegr0Srq-=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNEKq59uGQXcohuiNHcxdcIPYuGBn3fRXNcKqDN=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNEKq59uGQXcohuiNHcxdcIPYuGBn3fRXNcKqDN=s10000"
+        }
+      ],
+      "overall_rating": 4.1,
+      "reviews": 763,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 398
+        },
+        {
+          "stars": 4,
+          "count": 171
+        },
+        {
+          "stars": 3,
+          "count": 101
+        },
+        {
+          "stars": 2,
+          "count": 30
+        },
+        {
+          "stars": 1,
+          "count": 63
+        }
+      ],
+      "location_rating": 4.6,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 182,
+          "positive": 161,
+          "negative": 8,
+          "neutral": 13,
+          "category_token": "jLN0PHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cIZwEAzmAM3g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=jLN0PHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cIZwEAzmAM3g&engine=google_hotels_reviews&hl=en&property_token=ChgIrvr36vDYl9iNARoLL2cvMXRrNjYzdjcQAQ"
+        },
+        {
+          "name": "Room",
+          "description": "Room amenities",
+          "total_mentioned": 110,
+          "positive": 70,
+          "negative": 32,
+          "neutral": 8,
+          "category_token": "JWuianica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmoxwxIQHwDoBQ2G",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=JWuianica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmoxwxIQHwDoBQ2G&engine=google_hotels_reviews&hl=en&property_token=ChgIrvr36vDYl9iNARoLL2cvMXRrNjYzdjcQAQ"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 195,
+          "positive": 161,
+          "negative": 27,
+          "neutral": 7,
+          "category_token": "DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA&engine=google_hotels_reviews&hl=en&property_token=ChgIrvr36vDYl9iNARoLL2cvMXRrNjYzdjcQAQ"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 101,
+          "positive": 74,
+          "negative": 23,
+          "neutral": 4,
+          "category_token": "JXKy3Xica1yRnFiSmp5fVDl5tXNOamJeTmZeanExIzIHACQKD1Q",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=JXKy3Xica1yRnFiSmp5fVDl5tXNOamJeTmZeanExIzIHACQKD1Q&engine=google_hotels_reviews&hl=en&property_token=ChgIrvr36vDYl9iNARoLL2cvMXRrNjYzdjcQAQ"
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 208,
+          "positive": 151,
+          "negative": 45,
+          "neutral": 12,
+          "category_token": "qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY&engine=google_hotels_reviews&hl=en&property_token=ChgIrvr36vDYl9iNARoLL2cvMXRrNjYzdjcQAQ"
+        },
+        {
+          "name": "Family",
+          "description": "Family friendly",
+          "total_mentioned": 43,
+          "positive": 34,
+          "negative": 6,
+          "neutral": 3,
+          "category_token": "kuiVx3ica1yRnFiSmp5fVDl5vVtibmZOpUJaUWZqXkpOJeMyiAAAEmwOsg",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=kuiVx3ica1yRnFiSmp5fVDl5vVtibmZOpUJaUWZqXkpOJeMyiAAAEmwOsg&engine=google_hotels_reviews&hl=en&property_token=ChgIrvr36vDYl9iNARoLL2cvMXRrNjYzdjcQAQ"
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Parking",
+        "Air conditioning",
+        "Pet-friendly",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChgIrvr36vDYl9iNARoLL2cvMXRrNjYzdjcQAQ"
+    },
+    {
+      "type": "hotel",
+      "name": "Hema Guest House",
+      "property_token": "ChkI367g2LWyq7M3Gg0vZy8xMWY0d3NzOTFnEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-07&check_out_date=2026-03-12&children=0&currency=INR&engine=google_hotels&gl=us&hl=en&hotel_class=2&property_token=ChkI367g2LWyq7M3Gg0vZy8xMWY0d3NzOTFnEAE&q=hampi&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 15.3470011,
+        "longitude": 76.4527197
+      },
+      "nearby_places": [
+        {
+          "name": "Jindal Vijaynagar Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 29 min"
+            }
+          ]
+        },
+        {
+          "name": "Benjamin Live Music Cafe",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "2-star hotel",
+      "extracted_hotel_class": 2,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSw-GU4Za2tHx4pWCAhX-u68MwIEC7f6PkYi435aW-cBnc2xZGYPnTOeTsjnvi9l8tc1HH2oMNkWJWbRIkBnG1VvukFumoArKCe14vKcmGjJNiEKRJPv8cwN4L4yIHcA63bCr4cOEA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDEk4b5xAE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSy8XTLz_M4qY87fODL81D-2cTSos-ZLtC-LgOzUa4UNTIYaVvNEd964qxYp_EQOHZ4ZfL0JDOkrcYmTJFvtv0NvU0tHqyOaAsljQ8YnbEZ3wQO9CbecdL6SmjscFCvaGTI_WGetcQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICc4pyMigE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSy0SQ51PMcA-upmUSnaUGLqm71-n2EXFhdqse149A4_HNyvuWyYP_CCxrGE10OVHjXl7MN2IR9Lhfg0ijDiPClEqVCumxv26svrfHnMj4t48RX_NyWTuwx3soH1TeLlk53xkgvHzQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDE_KyytwE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwZz_z1PKTS6DLRAz_CHSMU_HDl9OcgMcPbUTub0KWLKBkXCQ_3u95dfLrIQCFz4WIKtXRTTAx0VTvz6R0fI4e_pMq8MY59v8AZg1dQg-sMiAcjWZXXZFji-4BnX1uLPxs_So4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIC4n6C9RA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz10nR9QiDw5bPSCTCEIkh66eG9Rd2GOAcaQlpa-MODsT4xqxlqTnJ4HMzSyTopsW9shvO1zruz_btlw9CAUZZGCfi2quJGKzvGX37bt5dSfh1JPmJS6CH3CUQFYKwdGhSNUvUL=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICcrrXYXQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxcCZu9lEIxOiCPyeUJiu8NAer5-H1ojf006KjJf-rBhDQ0hCdPMODA22BjkshgUQGZjS78pLWje6b256cU4OhkpS7fnwiQA27PFuHwCdJUy3vV9guUraBKXtUwxEa2RutHA53G=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICc4sjmJA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwZ2RfBFrQJfOBDBPu-UCKpIMtS3_OAwajuyuBFE0-Od1HMn06fuyX-8mPMz_MMKkigrsTJ0jw5j6bTGP3dhRlvAr4aqM0_-2EI9A0z1_TWzK9GPyk-g0Y0p7C5BMk9vqK98fMqgg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIC4ltLc_AE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzNMvIl9qhFBjPTdD771SOWHWibZ1d4HHE3sLD8xmCOJRvjmFo9NKa7VMQyOtCc2ZDUr_57eOewxjUdEaHsyFvaVpvciEw7hdZaW3PjLJQTCBAyS2Ctjs3V_UzVnrN3j3m81lrF=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIC4hrrVWA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz6hB5HPEPdqFtcrNP7bLPiHPuxWozN9D9X802VlKjyBTK1YDLvYdniUwTrw8wo9YDogf80_n-PEosUI2mix2ldQaX7UDVKnY_zxtDvKIluq5kjWE0x22AMXCeyxzF7VdM3TYsUfw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIC45aTgzwE=s10000"
+        }
+      ],
+      "overall_rating": 4,
+      "reviews": 289,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 113
+        },
+        {
+          "stars": 4,
+          "count": 97
+        },
+        {
+          "stars": 3,
+          "count": 49
+        },
+        {
+          "stars": 2,
+          "count": 15
+        },
+        {
+          "stars": 1,
+          "count": 15
+        }
+      ],
+      "location_rating": 4.4,
+      "reviews_breakdown": [
+        {
+          "name": "Nightlife",
+          "description": "Nightlife",
+          "total_mentioned": 12,
+          "positive": 10,
+          "negative": 1,
+          "neutral": 1,
+          "category_token": "jCBqW3ica1yRnFiSmp5fVDl5pV9mekZJTmZaKiOCCQDpcg2i",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=jCBqW3ica1yRnFiSmp5fVDl5pV9mekZJTmZaKiOCCQDpcg2i&engine=google_hotels_reviews&hl=en&property_token=ChkI367g2LWyq7M3Gg0vZy8xMWY0d3NzOTFnEAE"
+        },
+        {
+          "name": "Wi-Fi",
+          "description": "Wi-Fi",
+          "total_mentioned": 5,
+          "positive": 4,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "8xDzSXica1yRnFiSmp5fVDl5aXimrlsmA4QCAIJVCZ0",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=8xDzSXica1yRnFiSmp5fVDl5aXimrlsmA4QCAIJVCZ0&engine=google_hotels_reviews&hl=en&property_token=ChkI367g2LWyq7M3Gg0vZy8xMWY0d3NzOTFnEAE"
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 32,
+          "positive": 24,
+          "negative": 5,
+          "neutral": 3,
+          "category_token": "2aMhPHica1yRnFiSmp5fVDl5o1t-fopCYl6KglNqWWpRYnoq4zKXzLzMvHQAKAwO6A",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=2aMhPHica1yRnFiSmp5fVDl5o1t-fopCYl6KglNqWWpRYnoq4zKXzLzMvHQAKAwO6A&engine=google_hotels_reviews&hl=en&property_token=ChkI367g2LWyq7M3Gg0vZy8xMWY0d3NzOTFnEAE"
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 47,
+          "positive": 41,
+          "negative": 4,
+          "neutral": 2,
+          "category_token": "qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY&engine=google_hotels_reviews&hl=en&property_token=ChkI367g2LWyq7M3Gg0vZy8xMWY0d3NzOTFnEAE"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 14,
+          "positive": 11,
+          "negative": 1,
+          "neutral": 2,
+          "category_token": "B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U&engine=google_hotels_reviews&hl=en&property_token=ChkI367g2LWyq7M3Gg0vZy8xMWY0d3NzOTFnEAE"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 36,
+          "positive": 25,
+          "negative": 10,
+          "neutral": 1,
+          "category_token": "DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA&engine=google_hotels_reviews&hl=en&property_token=ChkI367g2LWyq7M3Gg0vZy8xMWY0d3NzOTFnEAE"
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Parking",
+        "Room service",
+        "Kitchen in some rooms",
+        "Full-service laundry",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkI367g2LWyq7M3Gg0vZy8xMWY0d3NzOTFnEAE"
+    },
+    {
+      "type": "hotel",
+      "name": "Riverside Homestay",
+      "property_token": "ChoI7eme9s2w07feARoNL2cvMTFjczRubnBybBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-07&check_out_date=2026-03-12&children=0&currency=INR&engine=google_hotels&gl=us&hl=en&hotel_class=2&property_token=ChoI7eme9s2w07feARoNL2cvMTFjczRubnBybBAB&q=hampi&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 15.3356586,
+        "longitude": 76.4606355
+      },
+      "check_in_time": "10:00\u202fAM",
+      "check_out_time": "9:00\u202fAM",
+      "nearby_places": [
+        {
+          "name": "Virupaksha Temple, Hampi",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Jindal Vijaynagar Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 10 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "8 hr 15 min"
+            }
+          ]
+        },
+        {
+          "name": "Annapurna Cafe And Restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "2-star hotel",
+      "extracted_hotel_class": 2,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwEJaqS_IpTyiW8we3toSCL03Ql6bd6_MCh6-wC0-Nv_x1f4GWG-iUiYXsqk-502Xgpmt9QQVm4E1KDVL-rmA-pf8MKaOYJU48JKTaYwN9RRSVEoJ_fFxCwdQdSlkAd2nEk9noFaA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICEkK65vAE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNT22Z51w1Rb8vU7T78Hz7H5v84rwIJ_u86V8kz=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNT22Z51w1Rb8vU7T78Hz7H5v84rwIJ_u86V8kz=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOAiY-9_gpkrwo0QbPxzqxy7pXlxXvJDhXUtBZ-=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOAiY-9_gpkrwo0QbPxzqxy7pXlxXvJDhXUtBZ-=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOn4zUNZSngAQhNwywKDdZxSABLiVEjhclfeI6H=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOn4zUNZSngAQhNwywKDdZxSABLiVEjhclfeI6H=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNXoCc3bNDMwiFCH8yokMmsvUrrVKUHTQt6hkg9=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNXoCc3bNDMwiFCH8yokMmsvUrrVKUHTQt6hkg9=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPBtr3HCLMJqFdGHluTg1nj5tKJXX2PIFaPKHGd=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPBtr3HCLMJqFdGHluTg1nj5tKJXX2PIFaPKHGd=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMqbrAg-2KJAch3vCa-M56PQ2dobxQIVAaQ9f6J=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMqbrAg-2KJAch3vCa-M56PQ2dobxQIVAaQ9f6J=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOPNYJ7jcx-7ub4K2jirW8ojW_zdSLjUZ-vVkyI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOPNYJ7jcx-7ub4K2jirW8ojW_zdSLjUZ-vVkyI=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMJ2h9oYHKdCLCzieji9mpNXd1iamODJU7yvv1y=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMJ2h9oYHKdCLCzieji9mpNXd1iamODJU7yvv1y=s10000"
+        }
+      ],
+      "overall_rating": 4,
+      "reviews": 113,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 60
+        },
+        {
+          "stars": 4,
+          "count": 21
+        },
+        {
+          "stars": 3,
+          "count": 15
+        },
+        {
+          "stars": 2,
+          "count": 6
+        },
+        {
+          "stars": 1,
+          "count": 11
+        }
+      ],
+      "location_rating": 4.6,
+      "reviews_breakdown": [
+        {
+          "name": "Family",
+          "description": "Family friendly",
+          "total_mentioned": 10,
+          "positive": 7,
+          "negative": 2,
+          "neutral": 1,
+          "category_token": "kuiVx3ica1yRnFiSmp5fVDl5vVtibmZOpUJaUWZqXkpOJeMyiAAAEmwOsg",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=kuiVx3ica1yRnFiSmp5fVDl5vVtibmZOpUJaUWZqXkpOJeMyiAAAEmwOsg&engine=google_hotels_reviews&hl=en&property_token=ChoI7eme9s2w07feARoNL2cvMTFjczRubnBybBAB"
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 17,
+          "positive": 15,
+          "negative": 0,
+          "neutral": 2,
+          "category_token": "jLN0PHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cIZwEAzmAM3g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=jLN0PHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cIZwEAzmAM3g&engine=google_hotels_reviews&hl=en&property_token=ChoI7eme9s2w07feARoNL2cvMTFjczRubnBybBAB"
+        },
+        {
+          "name": "Safety",
+          "description": "Safety",
+          "total_mentioned": 6,
+          "positive": 4,
+          "negative": 2,
+          "neutral": 0,
+          "category_token": "ItReBXica1yRnFiSmp5fVDl5WXBiWmpJJQOUBgCdBAs_",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=ItReBXica1yRnFiSmp5fVDl5WXBiWmpJJQOUBgCdBAs_&engine=google_hotels_reviews&hl=en&property_token=ChoI7eme9s2w07feARoNL2cvMTFjczRubnBybBAB"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 7,
+          "positive": 4,
+          "negative": 3,
+          "neutral": 0,
+          "category_token": "g2mTLnica1yRnFiSmp5fVDl5pVNRamJ2WmJxCQOCCQDn-g2T",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=g2mTLnica1yRnFiSmp5fVDl5pVNRamJ2WmJxCQOCCQDn-g2T&engine=google_hotels_reviews&hl=en&property_token=ChoI7eme9s2w07feARoNL2cvMTFjczRubnBybBAB"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 24,
+          "positive": 19,
+          "negative": 5,
+          "neutral": 0,
+          "category_token": "DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA&engine=google_hotels_reviews&hl=en&property_token=ChoI7eme9s2w07feARoNL2cvMTFjczRubnBybBAB"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 13,
+          "positive": 11,
+          "negative": 1,
+          "neutral": 1,
+          "category_token": "JXKy3Xica1yRnFiSmp5fVDl5tXNOamJeTmZeanExIzIHACQKD1Q",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=JXKy3Xica1yRnFiSmp5fVDl5tXNOamJeTmZeanExIzIHACQKD1Q&engine=google_hotels_reviews&hl=en&property_token=ChoI7eme9s2w07feARoNL2cvMTFjczRubnBybBAB"
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Wi-Fi",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoI7eme9s2w07feARoNL2cvMTFjczRubnBybBAB"
+    },
+    {
+      "type": "hotel",
+      "name": "Siri home stay",
+      "property_token": "ChkIhLrC5du8yYUBGg0vZy8xMWNteXQxd2o5EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-07&check_out_date=2026-03-12&children=0&currency=INR&engine=google_hotels&gl=us&hl=en&hotel_class=2&property_token=ChkIhLrC5du8yYUBGg0vZy8xMWNteXQxd2o5EAE&q=hampi&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 15.335522000000001,
+        "longitude": 76.46079999999999
+      },
+      "check_in_time": "9:00\u202fAM",
+      "check_out_time": "9:00\u202fAM",
+      "nearby_places": [
+        {
+          "name": "Group of Monuments at Hampi",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "Jindal Vijaynagar Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 10 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "8 hr 15 min"
+            }
+          ]
+        },
+        {
+          "name": "Annapurna Cafe And Restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "2-star hotel",
+      "extracted_hotel_class": 2,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSw999nLWtJmW0uUUrSddgYRV3klZPiKU5y9uhIH84H_EfeO3X5wJ1lY2xFEnKTDhc_HPELWSADC5D9uMvjp2_JSil-RSiXK8F_Z8H-6NlDK4hFD5jtH_ZDa_gt4Hzugs0wZmbXl=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICh8-b5Yg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOSDFRc3h8Lc4rYmB6jsQV_Fhothfm31R_3D5dp=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOSDFRc3h8Lc4rYmB6jsQV_Fhothfm31R_3D5dp=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNLDl8KL3Wzuq1c45Ba1cmAi2RNw470L9o01XDs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNLDl8KL3Wzuq1c45Ba1cmAi2RNw470L9o01XDs=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP5xFSzmmqJqkBrp_8GKpJWfayfTvl9VLrUqshQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP5xFSzmmqJqkBrp_8GKpJWfayfTvl9VLrUqshQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPth2am7sJ6fYBAffPzVIsNxFg28XER10f1lz3M=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPth2am7sJ6fYBAffPzVIsNxFg28XER10f1lz3M=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzSDrS2tJuLhla8D8ca7Q9WXUVlWdQQrXctumIpIkxRWVc7eovoowosm3AiCaRI55Z66yGmTDSLO_xT6VFjAxI-XXhHGCUkqU6Y-fu75zsW82UrDz8YGrwdwtZfD5OcmK2EvYA5=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICE8vuvZw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwFnvV1SgUI1_gLINo6jtb394uF5Aw6MwTKzATv__LiPiCUQMbn9q7z1-Bv_szII8Tf2UVqd6x2wgXAOf7TBmYJNOuyESBwSw6NOfYRUv1Bn8CTYFPt1wsDS3j2WW7JnsReq5JC=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICh8-bVzAE=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/hScH2n51VNXaUPWcRH5f-NmfjKSHZEaQ2C98WnfWzBLGwsUcHz7sbiABvJe2ks5kAhrzj9wbwxgIOmGTc0qoE84E24SBnug9133q_ESlwcCHTyclMoDH4wVfDmrx1ra817pRJfKnzeSf59Pdme_Pz_AsuGZoxg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/71/2d/62/img-20191129-wa0006-largejpg.jpg?w=1300&h=700&s=1"
+        },
+        {
+          "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=B-ry3lXxaMRsNctHYKnQ-w&cb_client=search.estubs.gps&w=287&h=192&yaw=181.81096&pitch=0&thumbfov=100&scale=2",
+          "original_image": "https://lh5.googleusercontent.com/p/B-ry3lXxaMRsNctHYKnQ-w=s10000"
+        }
+      ],
+      "overall_rating": 3.9,
+      "reviews": 80,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 31
+        },
+        {
+          "stars": 4,
+          "count": 30
+        },
+        {
+          "stars": 3,
+          "count": 8
+        },
+        {
+          "stars": 2,
+          "count": 5
+        },
+        {
+          "stars": 1,
+          "count": 6
+        }
+      ],
+      "location_rating": 4.4,
+      "reviews_breakdown": [
+        {
+          "name": "Bathroom",
+          "description": "Bathroom and toiletries",
+          "total_mentioned": 12,
+          "positive": 6,
+          "negative": 4,
+          "neutral": 2,
+          "category_token": "CStECHica1yRnFiSmp5fVDl5u1NiSUZRfn6uQmJeikJJfmZOaklRZmoxwwqYBAC6uRKp",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=CStECHica1yRnFiSmp5fVDl5u1NiSUZRfn6uQmJeikJJfmZOaklRZmoxwwqYBAC6uRKp&engine=google_hotels_reviews&hl=en&property_token=ChkIhLrC5du8yYUBGg0vZy8xMWNteXQxd2o5EAE"
+        },
+        {
+          "name": "Room",
+          "description": "Room amenities",
+          "total_mentioned": 18,
+          "positive": 10,
+          "negative": 3,
+          "neutral": 5,
+          "category_token": "JWuianica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmoxwxIQHwDoBQ2G",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=JWuianica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmoxwxIQHwDoBQ2G&engine=google_hotels_reviews&hl=en&property_token=ChkIhLrC5du8yYUBGg0vZy8xMWNteXQxd2o5EAE"
+        },
+        {
+          "name": "Air Conditioning",
+          "description": "Air conditioning",
+          "total_mentioned": 8,
+          "positive": 3,
+          "negative": 3,
+          "neutral": 2,
+          "category_token": "tBbQvXica1yRnFiSmp5fVDl5g2NmkUJyfl5KZklmfl5mXjoDWMQZSQQAyY0S3Q",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=tBbQvXica1yRnFiSmp5fVDl5g2NmkUJyfl5KZklmfl5mXjoDWMQZSQQAyY0S3Q&engine=google_hotels_reviews&hl=en&property_token=ChkIhLrC5du8yYUBGg0vZy8xMWNteXQxd2o5EAE"
+        },
+        {
+          "name": "Wi-Fi",
+          "description": "Wi-Fi",
+          "total_mentioned": 8,
+          "positive": 6,
+          "negative": 2,
+          "neutral": 0,
+          "category_token": "8xDzSXica1yRnFiSmp5fVDl5aXimrlsmA4QCAIJVCZ0",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=8xDzSXica1yRnFiSmp5fVDl5aXimrlsmA4QCAIJVCZ0&engine=google_hotels_reviews&hl=en&property_token=ChkIhLrC5du8yYUBGg0vZy8xMWNteXQxd2o5EAE"
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 18,
+          "positive": 16,
+          "negative": 1,
+          "neutral": 1,
+          "category_token": "jLN0PHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cIZwEAzmAM3g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=jLN0PHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cIZwEAzmAM3g&engine=google_hotels_reviews&hl=en&property_token=ChkIhLrC5du8yYUBGg0vZy8xMWNteXQxd2o5EAE"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 12,
+          "positive": 11,
+          "negative": 0,
+          "neutral": 1,
+          "category_token": "JXKy3Xica1yRnFiSmp5fVDl5tXNOamJeTmZeanExIzIHACQKD1Q",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=JXKy3Xica1yRnFiSmp5fVDl5tXNOamJeTmZeanExIzIHACQKD1Q&engine=google_hotels_reviews&hl=en&property_token=ChkIhLrC5du8yYUBGg0vZy8xMWNteXQxd2o5EAE"
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Room service",
+        "Kitchen in some rooms",
+        "Full-service laundry",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkIhLrC5du8yYUBGg0vZy8xMWNteXQxd2o5EAE"
+    }
+  ]
+}
