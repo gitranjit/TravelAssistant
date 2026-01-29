@@ -72,20 +72,154 @@ def search_hotel(
         jsonfile = os.path.join(HOTEL_DIR,f"{search_id}.json")
         with open(jsonfile,"w") as f:
             json.dump(hotel_data,f,indent=2)
+        
+        max_results = hotel_data.get("search_information").get("total_results")
 
         summary = {
-            "search_id: ": search_id,
-            "place": query,
-            "check in date: ": check_in_date,
-            "check out date: ": check_out_date,
-            "adults: ": adults,
-            "hotel_class: ": hotel_class,
-            "total hotel results: ": len(hotel_data["properties"])
+            "search_metadata":{
+                "search_id: ": search_id,
+                "place": query,
+                "check in date: ": check_in_date,
+                "check out date: ": check_out_date,
+                "adults: ": adults,
+                "hotel_class: ": hotel_class,
+                "total hotel results: ": len(hotel_data["properties"])
+            },
+            "properties": hotel_data.get("properties", [])[:max_results],
+            
         }
 
         return summary
 
     except Exception as E:
         {"error": str(E)}
+
+
+@mcp.tool()
+def filter_hotel_by_price(
+search_id,
+min_price,
+max_price
+):
+    try:
+        jsonpath = os.path.join(HOTEL_DIR,f"{search_id}.json")
+        with open(jsonpath,"r") as f:
+            hotel_data = json.load(jsonpath)
+        
+        properties = hotel_data["properties"]
+        for property in properties:
+            
+            def price_filter(property):
+                rate = property.get("rate_per_night",None)
+                if rate!=None:
+                    if rate>=min_price and rate<=max_price:
+                        return True
+                    else:
+                        return False
+                return True
+            
+            filtered_properties = [p for p in hotel_data.get("properties", []) if price_filter(p)]
+
+            result = {
+                "search_id": search_id,
+                "filters_applied": {
+                    "min_price": min_price,
+                    "max_price": max_price
+                },
+                "filtered_properties": filtered_properties,
+                "total_filtered": len(filtered_properties)
+            }
+            
+            return json.dumps(result, indent=2)
+        
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        return f"Error processing hotel data for {search_id}: {str(e)}"
+    
+
+@mcp.tool()
+def filter_hotels_by_rating(
+    search_id: str,
+    min_rating: float = 3.0
+) -> str:
+    """
+    Filter hotels from a search by minimum rating.
+    
+    Args:
+        search_id: The search ID returned from search_hotels
+        min_rating: Minimum overall rating filter (default: 3.0)
+        
+    Returns:
+        JSON string with filtered hotel results
+    """
+    
+    file_path = os.path.join(HOTEL_DIR, f"{search_id}.json")
+    
+    if not os.path.exists(file_path):
+        return f"No hotel search found with ID: {search_id}"
+    
+    try:
+        with open(file_path, "r") as f:
+            hotel_data = json.load(f)
+        
+        def rating_filter(hotel):
+            rating = hotel.get("overall_rating", 0)
+            return rating >= min_rating
+        
+        filtered_properties = [h for h in hotel_data.get("properties", []) if rating_filter(h)]
+        
+        result = {
+            "search_id": search_id,
+            "filters_applied": {
+                "min_rating": min_rating
+            },
+            "filtered_properties": filtered_properties,
+            "total_filtered": len(filtered_properties)
+        }
+        
+        return json.dumps(result, indent=2)
+        
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        return f"Error processing hotel data for {search_id}: {str(e)}"
+
+@mcp.tool()
+def get_property_details(
+    property_token: str,
+    currency: str = "INR",
+    country: str = "in",
+    language: str = "en"
+) -> str:
+    """
+    Get detailed information about a specific property using its token.
+    
+    Args:
+        property_token: The property token from hotel search results
+        currency: Currency for prices (default: 'INR')
+        country: Country code for search (default: 'in')
+        language: Language code (default: 'en')
+        
+    Returns:
+        JSON string with detailed property information
+    """
+    
+    try:
+        api_key = getApiKey()
+        
+        params = {
+            "engine": "google_hotels",
+            "api_key": api_key,
+            "property_token": property_token,
+            "currency": currency,
+            "gl": country,
+            "hl": language
+        }
+        
+        response = requests.get("https://serpapi.com/search", params=params)
+        response.raise_for_status()
+        
+        property_data = response.json()
+        return json.dumps(property_data, indent=2)
+        
+    except Exception as e:
+        return f"Unexpected error: {str(e)}"
 
 
