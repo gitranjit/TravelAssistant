@@ -26,7 +26,7 @@ def search_hotel(
     check_out_date,
     engine = "google_hotels",
     currency = "INR",
-    hl = "en",
+    language = "en",
     adults = 2,
     sort_by = 8,
     hotel_class = 2
@@ -53,7 +53,7 @@ def search_hotel(
             "check_out_date" : check_out_date,
             "engine" : engine,
             "currency" : currency,
-            "hl": hl,        # language
+            "hl": language,        # language
             "adults": adults,
             "sort_by":sort_by,
             "hotel_class" : hotel_class,
