@@ -239,41 +239,41 @@ def filter_hotels_by_amenities(
 @mcp.tool()
 def get_property_details(
     property_token: str,
+    search_id: str,
     currency: str = "INR",
     country: str = "in",
     language: str = "en"
 ) -> str:
-    """
-    Get detailed information about a specific property using its token.
-    
-    Args:
-        property_token: The property token from hotel search results
-        currency: Currency for prices (default: 'INR')
-        country: Country code for search (default: 'in')
-        language: Language code (default: 'en')
-        
-    Returns:
-        JSON string with detailed property information
-    """
-    
+
     try:
         api_key = getApiKey()
-        
+
+        file_path = os.path.join(HOTEL_DIR, f"{search_id}.json")
+        with open(file_path, "r") as f:
+            hotel_data = json.load(f)
+
+        meta = hotel_data.get("search_parameters", {})
+
         params = {
             "engine": "google_hotels",
             "api_key": api_key,
             "property_token": property_token,
+
+            "q": meta.get("q"),
+            "check_in_date": meta.get("check_in_date"),
+            "check_out_date": meta.get("check_out_date"),
+            "adults": meta.get("adults"),
+
             "currency": currency,
             "gl": country,
             "hl": language
         }
-        
+
         response = requests.get("https://serpapi.com/search", params=params)
         response.raise_for_status()
-        
-        property_data = response.json()
-        return json.dumps(property_data, indent=2)
-        
+
+        return json.dumps(response.json(), indent=2)
+
     except Exception as e:
         return f"Unexpected error: {str(e)}"
 
