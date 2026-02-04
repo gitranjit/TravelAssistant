@@ -1,0 +1,57 @@
+{
+  "search_metadata": {
+    "id": "6982bc523882c5e6e3ff7aed",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/shMonB3Gn_GuK4y_GGMP9A/6982bc523882c5e6e3ff7aed.json",
+    "created_at": "2026-02-04 03:26:10 UTC",
+    "processed_at": "2026-02-04 03:26:10 UTC",
+    "google_events_url": "https://www.google.com/search?q=+in+Kerala%2C+India&ibp=htl;events&hl=en&gl=in&chips=date:today",
+    "raw_html_file": "https://serpapi.com/searches/shMonB3Gn_GuK4y_GGMP9A/6982bc523882c5e6e3ff7aed.html",
+    "total_time_taken": 6.09
+  },
+  "search_parameters": {
+    "q": " in Kerala, India",
+    "engine": "google_events",
+    "htichips": "date:today",
+    "hl": "en",
+    "gl": "in"
+  },
+  "search_information": {
+    "events_results_state": "Results for exact spelling"
+  },
+  "events_results": [
+    {
+      "title": "Panchajanyam International Film Festival",
+      "date": {
+        "start_date": "Feb 4",
+        "when": "Fri, 30 Jan, 10 am \u2013 Thu, 5 Feb, 11 pm"
+      },
+      "address": [
+        "Kerala State Film Development Corporation KSFDC Kairali Sree Theatre Chittur \ufe0f, SH25, Anikode",
+        "Chittur, Kerala"
+      ],
+      "link": "https://www.townscript.com/e/piff2026",
+      "event_location_map": {
+        "image": "https://www.google.com/maps/vt/data=yIJ5sR4LvDfEQmAQIzmDCTPHkyK6MPL28o2yKHolfNL98B5pVJ5ci6oxaDROIk8WsRyBrYVlISUIv1Um1J70eLkeLoHF8sn_TsR8s6bIbLJ4Bj69WyM",
+        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x3ba86b4b33af920b:0xf346be990dba53a6?sa=X&ved=2ahUKEwjE14rz8b6SAxXpkmoFHTHTM7IQ9eIBegQIAxAA&hl=en&gl=in",
+        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x3ba86b4b33af920b%3A0xf346be990dba53a6&engine=google_maps&gl=in&google_domain=google.com&hl=en&q=+in+Kerala%2C+India&type=place"
+      },
+      "description": "Panchajanyam International Film Festival is an annual film festival hosted by the Panchajanyam Film Society.This year, our festival theme is \"Music: Resilience & Revolt,\" takes center stage as we...",
+      "ticket_info": [
+        {
+          "source": "Townscript",
+          "link": "https://www.townscript.com/e/piff2026",
+          "link_type": "more info"
+        }
+      ],
+      "venue": {
+        "name": "Kerala State Film Development Corporation KSFDC Kairali Sree Theatre Chittur \ufe0f",
+        "rating": 4.3,
+        "reviews": 2173,
+        "link": "https://www.google.com/search?sca_esv=6be9317990ae46bf&hl=en&gl=in&q=Kerala+State+Film+Development+Corporation+KSFDC+Kairali+Sree+Theatre+Chittur+%EF%B8%8F&ludocid=17529908164155823014&ibp=gwp%3B0,7"
+      },
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLUT4Lm3LE3SOysBomb7dtJfykNJoVAfco2PxIkdM&s",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIxvRr_-pLC4oqCeBQDYZTfIpkdPwXqzxBSKT6Dn9nDg&s=10"
+    }
+  ]
+}
