@@ -1,0 +1,23 @@
+{
+  "search_metadata": {
+    "search_id": "art_exhibitionsJaipur_20260204_235555",
+    "query": "art exhibitions",
+    "location": "Jaipur",
+    "date_filter": "weekend",
+    "language": "en",
+    "country": "in",
+    "search_timestamp": "2026-02-04T23:55:55.418493",
+    "total_results": 0
+  },
+  "search_parameters": {
+    "q": "art exhibitions in Jaipur",
+    "engine": "google_events",
+    "htichips": "date:weekend",
+    "hl": "en",
+    "gl": "in"
+  },
+  "search_information": {
+    "events_results_state": "Fully empty"
+  },
+  "events_results": []
+}

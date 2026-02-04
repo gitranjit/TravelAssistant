@@ -1,0 +1,56 @@
+{
+  "search_metadata": {
+    "search_id": "cultural_eventsJaipur_20260204_235603",
+    "query": "cultural events",
+    "location": "Jaipur",
+    "date_filter": "weekend",
+    "language": "en",
+    "country": "in",
+    "search_timestamp": "2026-02-04T23:56:03.040355",
+    "total_results": 1
+  },
+  "search_parameters": {
+    "q": "cultural events in Jaipur",
+    "engine": "google_events",
+    "htichips": "date:weekend",
+    "hl": "en",
+    "gl": "in"
+  },
+  "search_information": {
+    "events_results_state": "Results for exact spelling"
+  },
+  "events_results": [
+    {
+      "title": "Pink Fest",
+      "date": {
+        "start_date": "Feb 6",
+        "when": "Fri, 6 Feb, 11 am \u2013 Sun, 8 Feb, 7 pm IST"
+      },
+      "address": [
+        "Rajasthan International Center, Bhamashah State Data Centre Block-C, Bhamashah State Data Centre, Jhalana Doongri",
+        "Jaipur, Rajasthan"
+      ],
+      "link": "https://artinfoindia.com/artevent/pink-fest/",
+      "event_location_map": {
+        "image": "https://www.google.com/maps/vt/data=T3WVYw_kk5DjOt-WVgqvyX-0eoBBet5XV1rbsP2G7Edav9pei6kN4RgyZ6fkKNADz2Q0fkpmn7XBL29dacM7bKn66M_mjADJoO8FU_7BhDFlZAzdi-s",
+        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x396db776ca78d045:0x73af37f24fdaaacd?sa=X&ved=2ahUKEwj0lZ2Bu8CSAxXa4ckDHT_yLZAQ9eIBegQIAxAA&hl=en&gl=in",
+        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x396db776ca78d045%3A0x73af37f24fdaaacd&engine=google_maps&gl=in&google_domain=google.com&hl=en&q=cultural+events+in+Jaipur&type=place"
+      },
+      "ticket_info": [
+        {
+          "source": "Shanker Art Foundation",
+          "link": "https://artinfoindia.com/artevent/pink-fest/",
+          "link_type": "more info"
+        }
+      ],
+      "venue": {
+        "name": "Rajasthan International Center",
+        "rating": 4.7,
+        "reviews": 1936,
+        "link": "https://www.google.com/search?sca_esv=f8674ab91ffef830&hl=en&gl=in&q=Rajasthan+International+Center&ludocid=8335942949147421389&ibp=gwp%3B0,7"
+      },
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDnmJxBCVflw4Jq5fZAqtQV08VlfJ4XVDR112nNjmNkk6FUHFk54JDi5E&s",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqRUz0PtB1HQBckx8eUlshl5ap5UGe5hH8F-i9ns-r7g&s=10"
+    }
+  ]
+}
