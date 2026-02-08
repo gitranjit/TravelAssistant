@@ -18,12 +18,12 @@ Each capability is exposed as **MCP tools, resources, and prompts**, making it e
 
 ## Project Structure
 
+
 servers/
 ├── flight_server.py # Flight search & analysis
 ├── hotel_server.py # Hotel discovery & filtering
 ├── event_server.py # Event discovery
 └── weather_server.py # Weather forecast & analysis
-
 
 ---
 
@@ -36,9 +36,3 @@ servers/
 
 ---
 
-## Setup
-
-1. Clone the repository  
-2. Install dependencies
-   ```bash
-   pip install -r requirements.txt
