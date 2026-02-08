@@ -11,9 +11,6 @@ https://github.com/user-attachments/assets/92045fd3-b161-4ba8-9f0a-2c04860cc9df
 
 
 
-
-> Note: GitHub opens local videos in a new tab.
-
 ---
 
 ## What This Project Does
