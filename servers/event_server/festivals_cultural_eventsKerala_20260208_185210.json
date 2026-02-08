@@ -1,0 +1,23 @@
+{
+  "search_metadata": {
+    "search_id": "festivals_cultural_eventsKerala_20260208_185210",
+    "query": "festivals cultural events",
+    "location": "Kerala",
+    "date_filter": "week",
+    "language": "en",
+    "country": "in",
+    "search_timestamp": "2026-02-08T18:52:10.304199",
+    "total_results": 0
+  },
+  "search_parameters": {
+    "q": "festivals cultural events in Kerala",
+    "engine": "google_events",
+    "htichips": "date:week",
+    "hl": "en",
+    "gl": "in"
+  },
+  "search_information": {
+    "events_results_state": "Fully empty"
+  },
+  "events_results": []
+}

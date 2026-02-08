@@ -1,0 +1,977 @@
+{
+  "search_data": {
+    "search_id": "PNQ_COK_2026-02-17_20260208_185146",
+    "departure_id": "PNQ",
+    "arrival_id": "COK",
+    "outbound_date": "2026-02-17",
+    "return_date": null,
+    "trip_type": "One Way",
+    "adults": 1,
+    "children": 0,
+    "infants_in_seat": 0,
+    "infants_on_lap": 0,
+    "currency": "INR"
+  },
+  "search_results": {
+    "best_flights": [
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Pune International Airport",
+              "id": "PNQ",
+              "time": "2026-02-17 00:25"
+            },
+            "arrival_airport": {
+              "name": "Cochin International Airport",
+              "id": "COK",
+              "time": "2026-02-17 02:10"
+            },
+            "duration": 105,
+            "airplane": "Airbus A321neo",
+            "airline": "IndiGo",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "travel_class": "Economy",
+            "flight_number": "6E 681",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "Carbon emissions estimate: 72 kg"
+            ],
+            "overnight": true,
+            "often_delayed_by_over_30_min": true
+          }
+        ],
+        "total_duration": 105,
+        "carbon_emissions": {
+          "this_flight": 72000,
+          "typical_for_this_route": 81000,
+          "difference_percent": -11
+        },
+        "price": 5140,
+        "type": "One way",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+        "booking_token": "WyJDalJJY1MxNGMyVmpiME5ZVkVGQlNqZFBkM2RDUnkwdExTMHRMUzB0TFc5NWRtOHhNRUZCUVVGQlIyMUphbVZ2UlV4dllYZEJFZ1UyUlRZNE1Sb0tDSlFvRUFBYUEwbE9VamdjY0tzcyIsW1siUE5RIiwiMjAyNi0wMi0xNyIsIkNPSyIsbnVsbCwiNkUiLCI2ODEiXV1d"
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Pune International Airport",
+              "id": "PNQ",
+              "time": "2026-02-17 01:05"
+            },
+            "arrival_airport": {
+              "name": "Kempegowda International Airport Bengaluru",
+              "id": "BLR",
+              "time": "2026-02-17 02:40"
+            },
+            "duration": 95,
+            "airplane": "Airbus A321neo",
+            "airline": "IndiGo",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "travel_class": "Economy",
+            "flight_number": "6E 361",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "Carbon emissions estimate: 60 kg"
+            ],
+            "overnight": true
+          },
+          {
+            "departure_airport": {
+              "name": "Kempegowda International Airport Bengaluru",
+              "id": "BLR",
+              "time": "2026-02-17 05:20"
+            },
+            "arrival_airport": {
+              "name": "Cochin International Airport",
+              "id": "COK",
+              "time": "2026-02-17 06:35"
+            },
+            "duration": 75,
+            "airplane": "Airbus A321neo",
+            "airline": "IndiGo",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "travel_class": "Economy",
+            "flight_number": "6E 6445",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "Carbon emissions estimate: 39 kg"
+            ]
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 160,
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "overnight": true
+          }
+        ],
+        "total_duration": 330,
+        "carbon_emissions": {
+          "this_flight": 100000,
+          "typical_for_this_route": 81000,
+          "difference_percent": 23
+        },
+        "price": 6825,
+        "type": "One way",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+        "booking_token": "WyJDalJJY1MxNGMyVmpiME5ZVkVGQlNqZFBkM2RDUnkwdExTMHRMUzB0TFc5NWRtOHhNRUZCUVVGQlIyMUphbVZ2UlV4dllYZEJFZ3cyUlRNMk1YdzJSVFkwTkRVYUNnaXBOUkFBR2dOSlRsSTRISER2T2c9PSIsW1siUE5RIiwiMjAyNi0wMi0xNyIsIkJMUiIsbnVsbCwiNkUiLCIzNjEiXSxbIkJMUiIsIjIwMjYtMDItMTciLCJDT0siLG51bGwsIjZFIiwiNjQ0NSJdXV0="
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Pune International Airport",
+              "id": "PNQ",
+              "time": "2026-02-17 17:00"
+            },
+            "arrival_airport": {
+              "name": "Kempegowda International Airport Bengaluru",
+              "id": "BLR",
+              "time": "2026-02-17 18:40"
+            },
+            "duration": 100,
+            "airplane": "Airbus A321neo",
+            "airline": "IndiGo",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "travel_class": "Economy",
+            "flight_number": "6E 137",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "Carbon emissions estimate: 60 kg"
+            ]
+          },
+          {
+            "departure_airport": {
+              "name": "Kempegowda International Airport Bengaluru",
+              "id": "BLR",
+              "time": "2026-02-17 21:50"
+            },
+            "arrival_airport": {
+              "name": "Cochin International Airport",
+              "id": "COK",
+              "time": "2026-02-17 22:55"
+            },
+            "duration": 65,
+            "airplane": "Airbus A321neo",
+            "airline": "IndiGo",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "travel_class": "Economy",
+            "flight_number": "6E 6919",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "Carbon emissions estimate: 39 kg"
+            ],
+            "often_delayed_by_over_30_min": true
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 190,
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR"
+          }
+        ],
+        "total_duration": 355,
+        "carbon_emissions": {
+          "this_flight": 100000,
+          "typical_for_this_route": 81000,
+          "difference_percent": 23
+        },
+        "price": 8550,
+        "type": "One way",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+        "booking_token": "WyJDalJJY1MxNGMyVmpiME5ZVkVGQlNqZFBkM2RDUnkwdExTMHRMUzB0TFc5NWRtOHhNRUZCUVVGQlIyMUphbVZ2UlV4dllYZEJFZ3cyUlRFek4zdzJSVFk1TVRrYUNnam1RaEFBR2dOSlRsSTRISERnU1E9PSIsW1siUE5RIiwiMjAyNi0wMi0xNyIsIkJMUiIsbnVsbCwiNkUiLCIxMzciXSxbIkJMUiIsIjIwMjYtMDItMTciLCJDT0siLG51bGwsIjZFIiwiNjkxOSJdXV0="
+      }
+    ],
+    "other_flights": [
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Pune International Airport",
+              "id": "PNQ",
+              "time": "2026-02-17 19:55"
+            },
+            "arrival_airport": {
+              "name": "Chennai International Airport",
+              "id": "MAA",
+              "time": "2026-02-17 22:00"
+            },
+            "duration": 125,
+            "airplane": "De Havilland-Bombardier Dash-8",
+            "airline": "SpiceJet",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SG.png",
+            "travel_class": "Economy",
+            "flight_number": "SG 1080",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "Stream media to your device",
+              "Carbon emissions estimate: 95 kg"
+            ]
+          },
+          {
+            "departure_airport": {
+              "name": "Chennai International Airport",
+              "id": "MAA",
+              "time": "2026-02-18 21:00"
+            },
+            "arrival_airport": {
+              "name": "Cochin International Airport",
+              "id": "COK",
+              "time": "2026-02-18 22:35"
+            },
+            "duration": 95,
+            "airplane": "Boeing 737",
+            "airline": "SpiceJet",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SG.png",
+            "travel_class": "Economy",
+            "flight_number": "SG 675",
+            "legroom": "29 in",
+            "extensions": [
+              "Below average legroom (29 in)",
+              "Stream media to your device",
+              "Carbon emissions estimate: 59 kg"
+            ]
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 1380,
+            "name": "Chennai International Airport",
+            "id": "MAA",
+            "overnight": true
+          }
+        ],
+        "total_duration": 1600,
+        "carbon_emissions": {
+          "this_flight": 155000,
+          "typical_for_this_route": 81000,
+          "difference_percent": 91
+        },
+        "price": 8900,
+        "type": "One way",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SG.png",
+        "booking_token": "WyJDalJJY1MxNGMyVmpiME5ZVkVGQlNqZFBkM2RDUnkwdExTMHRMUzB0TFc5NWRtOHhNRUZCUVVGQlIyMUphbVZ2UlV4dllYZEJFZ3hUUnpFd09EQjhVMGMyTnpVYUNnakVSUkFBR2dOSlRsSTRISERpVEE9PSIsW1siUE5RIiwiMjAyNi0wMi0xNyIsIk1BQSIsbnVsbCwiU0ciLCIxMDgwIl0sWyJNQUEiLCIyMDI2LTAyLTE4IiwiQ09LIixudWxsLCJTRyIsIjY3NSJdXV0="
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Pune International Airport",
+              "id": "PNQ",
+              "time": "2026-02-17 19:50"
+            },
+            "arrival_airport": {
+              "name": "Kempegowda International Airport Bengaluru",
+              "id": "BLR",
+              "time": "2026-02-17 21:30"
+            },
+            "duration": 100,
+            "airplane": "Airbus A320neo",
+            "airline": "IndiGo",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "travel_class": "Economy",
+            "flight_number": "6E 6055",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "Carbon emissions estimate: 64 kg"
+            ]
+          },
+          {
+            "departure_airport": {
+              "name": "Kempegowda International Airport Bengaluru",
+              "id": "BLR",
+              "time": "2026-02-18 05:20"
+            },
+            "arrival_airport": {
+              "name": "Cochin International Airport",
+              "id": "COK",
+              "time": "2026-02-18 06:35"
+            },
+            "duration": 75,
+            "airplane": "Airbus A321neo",
+            "airline": "IndiGo",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "travel_class": "Economy",
+            "flight_number": "6E 6445",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "Carbon emissions estimate: 39 kg"
+            ]
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 470,
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "overnight": true
+          }
+        ],
+        "total_duration": 645,
+        "carbon_emissions": {
+          "this_flight": 105000,
+          "typical_for_this_route": 81000,
+          "difference_percent": 30
+        },
+        "price": 9067,
+        "type": "One way",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+        "booking_token": "WyJDalJJY1MxNGMyVmpiME5ZVkVGQlNqZFBkM2RDUnkwdExTMHRMUzB0TFc5NWRtOHhNRUZCUVVGQlIyMUphbVZ2UlV4dllYZEJFZzAyUlRZd05UVjhOa1UyTkRRMUdnb0k2MFlRQUJvRFNVNVNPQnh3bWs0PSIsW1siUE5RIiwiMjAyNi0wMi0xNyIsIkJMUiIsbnVsbCwiNkUiLCI2MDU1Il0sWyJCTFIiLCIyMDI2LTAyLTE4IiwiQ09LIixudWxsLCI2RSIsIjY0NDUiXV1d"
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Pune International Airport",
+              "id": "PNQ",
+              "time": "2026-02-17 05:55"
+            },
+            "arrival_airport": {
+              "name": "Kempegowda International Airport Bengaluru",
+              "id": "BLR",
+              "time": "2026-02-17 07:30"
+            },
+            "duration": 95,
+            "airplane": "Airbus A320neo",
+            "airline": "IndiGo",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "travel_class": "Economy",
+            "flight_number": "6E 6564",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "Carbon emissions estimate: 64 kg"
+            ]
+          },
+          {
+            "departure_airport": {
+              "name": "Kempegowda International Airport Bengaluru",
+              "id": "BLR",
+              "time": "2026-02-17 08:55"
+            },
+            "arrival_airport": {
+              "name": "Cochin International Airport",
+              "id": "COK",
+              "time": "2026-02-17 10:10"
+            },
+            "duration": 75,
+            "airplane": "Airbus A321neo",
+            "airline": "IndiGo",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "travel_class": "Economy",
+            "flight_number": "6E 113",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "Carbon emissions estimate: 39 kg"
+            ]
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 85,
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR"
+          }
+        ],
+        "total_duration": 255,
+        "carbon_emissions": {
+          "this_flight": 105000,
+          "typical_for_this_route": 81000,
+          "difference_percent": 30
+        },
+        "price": 10681,
+        "type": "One way",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+        "booking_token": "WyJDalJJY1MxNGMyVmpiME5ZVkVGQlNqZFBkM2RDUnkwdExTMHRMUzB0TFc5NWRtOHhNRUZCUVVGQlIyMUphbVZ2UlV4dllYZEJFZ3cyUlRZMU5qUjhOa1V4TVRNYUNnaTVVeEFBR2dOSlRsSTRISENRWEE9PSIsW1siUE5RIiwiMjAyNi0wMi0xNyIsIkJMUiIsbnVsbCwiNkUiLCI2NTY0Il0sWyJCTFIiLCIyMDI2LTAyLTE3IiwiQ09LIixudWxsLCI2RSIsIjExMyJdXV0="
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Pune International Airport",
+              "id": "PNQ",
+              "time": "2026-02-17 14:35"
+            },
+            "arrival_airport": {
+              "name": "Kempegowda International Airport Bengaluru",
+              "id": "BLR",
+              "time": "2026-02-17 16:15"
+            },
+            "duration": 100,
+            "airplane": "Airbus A321neo",
+            "airline": "IndiGo",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "travel_class": "Economy",
+            "flight_number": "6E 302",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "Carbon emissions estimate: 60 kg"
+            ]
+          },
+          {
+            "departure_airport": {
+              "name": "Kempegowda International Airport Bengaluru",
+              "id": "BLR",
+              "time": "2026-02-17 18:45"
+            },
+            "arrival_airport": {
+              "name": "Cochin International Airport",
+              "id": "COK",
+              "time": "2026-02-17 19:50"
+            },
+            "duration": 65,
+            "airplane": "Airbus A321neo",
+            "airline": "IndiGo",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "travel_class": "Economy",
+            "flight_number": "6E 144",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "Carbon emissions estimate: 39 kg"
+            ],
+            "often_delayed_by_over_30_min": true
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 150,
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR"
+          }
+        ],
+        "total_duration": 315,
+        "carbon_emissions": {
+          "this_flight": 100000,
+          "typical_for_this_route": 81000,
+          "difference_percent": 23
+        },
+        "price": 11558,
+        "type": "One way",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+        "booking_token": "WyJDalJJY1MxNGMyVmpiME5ZVkVGQlNqZFBkM2RDUnkwdExTMHRMUzB0TFc5NWRtOHhNRUZCUVVGQlIyMUphbVZ2UlV4dllYZEJFZ3MyUlRNd01udzJSVEUwTkJvS0NLWmFFQUFhQTBsT1VqZ2NjTmhqIixbWyJQTlEiLCIyMDI2LTAyLTE3IiwiQkxSIixudWxsLCI2RSIsIjMwMiJdLFsiQkxSIiwiMjAyNi0wMi0xNyIsIkNPSyIsbnVsbCwiNkUiLCIxNDQiXV1d"
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Pune International Airport",
+              "id": "PNQ",
+              "time": "2026-02-17 00:35"
+            },
+            "arrival_airport": {
+              "name": "Indira Gandhi International Airport",
+              "id": "DEL",
+              "time": "2026-02-17 02:50"
+            },
+            "duration": 135,
+            "airplane": "Airbus A320neo",
+            "airline": "Air India",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "travel_class": "Economy",
+            "flight_number": "AI 2608",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "In-seat USB outlet",
+              "Stream media to your device",
+              "Carbon emissions estimate: 104 kg"
+            ],
+            "overnight": true
+          },
+          {
+            "departure_airport": {
+              "name": "Indira Gandhi International Airport",
+              "id": "DEL",
+              "time": "2026-02-17 17:00"
+            },
+            "arrival_airport": {
+              "name": "Cochin International Airport",
+              "id": "COK",
+              "time": "2026-02-17 20:25"
+            },
+            "duration": 205,
+            "airplane": "Airbus A320neo",
+            "airline": "Air India",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "travel_class": "Economy",
+            "flight_number": "AI 2489",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "In-seat USB outlet",
+              "Stream media to your device",
+              "Carbon emissions estimate: 155 kg"
+            ]
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 850,
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "overnight": true
+          }
+        ],
+        "total_duration": 1190,
+        "carbon_emissions": {
+          "this_flight": 260000,
+          "typical_for_this_route": 81000,
+          "difference_percent": 221
+        },
+        "price": 13388,
+        "type": "One way",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+        "booking_token": "WyJDalJJY1MxNGMyVmpiME5ZVkVGQlNqZFBkM2RDUnkwdExTMHRMUzB0TFc5NWRtOHhNRUZCUVVGQlIyMUphbVZ2UlV4dllYZEJFZzFCU1RJMk1EaDhRVWt5TkRnNUdnb0l6R2dRQUJvRFNVNVNPQnh3dlhNPSIsW1siUE5RIiwiMjAyNi0wMi0xNyIsIkRFTCIsbnVsbCwiQUkiLCIyNjA4Il0sWyJERUwiLCIyMDI2LTAyLTE3IiwiQ09LIixudWxsLCJBSSIsIjI0ODkiXV1d"
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Pune International Airport",
+              "id": "PNQ",
+              "time": "2026-02-17 01:20"
+            },
+            "arrival_airport": {
+              "name": "Indira Gandhi International Airport",
+              "id": "DEL",
+              "time": "2026-02-17 03:40"
+            },
+            "duration": 140,
+            "airplane": "Airbus A321",
+            "airline": "Air India Express",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IX.png",
+            "travel_class": "Economy",
+            "flight_number": "IX 1258",
+            "ticket_also_sold_by": [
+              "Air India"
+            ],
+            "extensions": [
+              "Carbon emissions estimate: 126 kg"
+            ],
+            "overnight": true
+          },
+          {
+            "departure_airport": {
+              "name": "Indira Gandhi International Airport",
+              "id": "DEL",
+              "time": "2026-02-17 05:55"
+            },
+            "arrival_airport": {
+              "name": "Cochin International Airport",
+              "id": "COK",
+              "time": "2026-02-17 09:15"
+            },
+            "duration": 200,
+            "airplane": "Airbus A320neo",
+            "airline": "Air India",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "travel_class": "Economy",
+            "flight_number": "AI 2883",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "In-seat USB outlet",
+              "Stream media to your device",
+              "Carbon emissions estimate: 155 kg"
+            ]
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 135,
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "overnight": true
+          }
+        ],
+        "total_duration": 475,
+        "carbon_emissions": {
+          "this_flight": 282000,
+          "typical_for_this_route": 81000,
+          "difference_percent": 248
+        },
+        "price": 14385,
+        "type": "One way",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+        "booking_token": "WyJDalJJY1MxNGMyVmpiME5ZVkVGQlNqZFBkM2RDUnkwdExTMHRMUzB0TFc5NWRtOHhNRUZCUVVGQlIyMUphbVZ2UlV4dllYZEJFZzFKV0RFeU5UaDhRVWt5T0Rnekdnb0lzWEFRQUJvRFNVNVNPQnh3aW53PSIsW1siUE5RIiwiMjAyNi0wMi0xNyIsIkRFTCIsbnVsbCwiSVgiLCIxMjU4Il0sWyJERUwiLCIyMDI2LTAyLTE3IiwiQ09LIixudWxsLCJBSSIsIjI4ODMiXV1d"
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Pune International Airport",
+              "id": "PNQ",
+              "time": "2026-02-17 15:50"
+            },
+            "arrival_airport": {
+              "name": "Indira Gandhi International Airport",
+              "id": "DEL",
+              "time": "2026-02-17 18:10"
+            },
+            "duration": 140,
+            "airplane": "Airbus A320neo",
+            "airline": "Air India",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "travel_class": "Economy",
+            "flight_number": "AI 1839",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "In-seat USB outlet",
+              "Stream media to your device",
+              "Carbon emissions estimate: 104 kg"
+            ],
+            "often_delayed_by_over_30_min": true
+          },
+          {
+            "departure_airport": {
+              "name": "Indira Gandhi International Airport",
+              "id": "DEL",
+              "time": "2026-02-17 19:00"
+            },
+            "arrival_airport": {
+              "name": "Cochin International Airport",
+              "id": "COK",
+              "time": "2026-02-17 22:20"
+            },
+            "duration": 200,
+            "airplane": "Airbus A320neo",
+            "airline": "Air India",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "travel_class": "Economy",
+            "flight_number": "AI 1724",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "In-seat USB outlet",
+              "Stream media to your device",
+              "Carbon emissions estimate: 155 kg"
+            ]
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 50,
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL"
+          }
+        ],
+        "total_duration": 390,
+        "carbon_emissions": {
+          "this_flight": 260000,
+          "typical_for_this_route": 81000,
+          "difference_percent": 221
+        },
+        "price": 16659,
+        "type": "One way",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+        "booking_token": "WyJDalJJY1MxNGMyVmpiME5ZVkVGQlNqZFBkM2RDUnkwdExTMHRMUzB0TFc5NWRtOHhNRUZCUVVGQlIyMUphbVZ2UlV4dllYZEJFZzFCU1RFNE16bDhRVWt4TnpJMEdnc0lrNElCRUFBYUEwbE9VamdjY05pUEFRPT0iLFtbIlBOUSIsIjIwMjYtMDItMTciLCJERUwiLG51bGwsIkFJIiwiMTgzOSJdLFsiREVMIiwiMjAyNi0wMi0xNyIsIkNPSyIsbnVsbCwiQUkiLCIxNzI0Il1dXQ=="
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Pune International Airport",
+              "id": "PNQ",
+              "time": "2026-02-17 01:35"
+            },
+            "arrival_airport": {
+              "name": "Cochin International Airport",
+              "id": "COK",
+              "time": "2026-02-17 03:30"
+            },
+            "duration": 115,
+            "airplane": "Boeing 737MAX 8 Passenger",
+            "airline": "Air India Express",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IX.png",
+            "travel_class": "Economy",
+            "flight_number": "IX 2739",
+            "extensions": [
+              "Carbon emissions estimate: 88 kg"
+            ],
+            "overnight": true,
+            "often_delayed_by_over_30_min": true
+          }
+        ],
+        "total_duration": 115,
+        "carbon_emissions": {
+          "this_flight": 89000,
+          "typical_for_this_route": 81000,
+          "difference_percent": 10
+        },
+        "type": "One way",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IX.png",
+        "booking_token": "WyJDalJJY1MxNGMyVmpiME5ZVkVGQlNqZFBkM2RDUnkwdExTMHRMUzB0TFc5NWRtOHhNRUZCUVVGQlIyMUphbVZ2UlV4dllYZEJFZ1pKV0RJM016azRIQT09IixbWyJQTlEiLCIyMDI2LTAyLTE3IiwiQ09LIixudWxsLCJJWCIsIjI3MzkiXV1d"
+      }
+    ],
+    "price_insights": {
+      "lowest_price": 5140,
+      "price_level": "typical",
+      "typical_price_range": [
+        4850,
+        5700
+      ],
+      "price_history": [
+        [
+          1765305000,
+          5565
+        ],
+        [
+          1765391400,
+          5565
+        ],
+        [
+          1765477800,
+          5565
+        ],
+        [
+          1765564200,
+          5565
+        ],
+        [
+          1765650600,
+          5565
+        ],
+        [
+          1765737000,
+          5565
+        ],
+        [
+          1765823400,
+          5192
+        ],
+        [
+          1765909800,
+          5192
+        ],
+        [
+          1765996200,
+          5192
+        ],
+        [
+          1766082600,
+          5192
+        ],
+        [
+          1766169000,
+          5192
+        ],
+        [
+          1766255400,
+          5192
+        ],
+        [
+          1766341800,
+          5192
+        ],
+        [
+          1766428200,
+          5192
+        ],
+        [
+          1766514600,
+          5140
+        ],
+        [
+          1766601000,
+          5140
+        ],
+        [
+          1766687400,
+          5140
+        ],
+        [
+          1766773800,
+          5140
+        ],
+        [
+          1766860200,
+          5140
+        ],
+        [
+          1766946600,
+          4915
+        ],
+        [
+          1767033000,
+          4915
+        ],
+        [
+          1767119400,
+          4915
+        ],
+        [
+          1767205800,
+          4915
+        ],
+        [
+          1767292200,
+          4877
+        ],
+        [
+          1767378600,
+          4877
+        ],
+        [
+          1767465000,
+          4877
+        ],
+        [
+          1767551400,
+          4877
+        ],
+        [
+          1767637800,
+          4877
+        ],
+        [
+          1767724200,
+          4877
+        ],
+        [
+          1767810600,
+          4877
+        ],
+        [
+          1767897000,
+          4877
+        ],
+        [
+          1767983400,
+          4877
+        ],
+        [
+          1768069800,
+          4877
+        ],
+        [
+          1768156200,
+          4877
+        ],
+        [
+          1768242600,
+          4194
+        ],
+        [
+          1768329000,
+          4194
+        ],
+        [
+          1768415400,
+          4194
+        ],
+        [
+          1768501800,
+          4194
+        ],
+        [
+          1768588200,
+          5140
+        ],
+        [
+          1768674600,
+          5140
+        ],
+        [
+          1768761000,
+          5140
+        ],
+        [
+          1768847400,
+          5140
+        ],
+        [
+          1768933800,
+          5140
+        ],
+        [
+          1769020200,
+          5140
+        ],
+        [
+          1769106600,
+          5140
+        ],
+        [
+          1769193000,
+          5140
+        ],
+        [
+          1769279400,
+          5140
+        ],
+        [
+          1769365800,
+          5140
+        ],
+        [
+          1769452200,
+          5140
+        ],
+        [
+          1769538600,
+          5140
+        ],
+        [
+          1769625000,
+          4918
+        ],
+        [
+          1769711400,
+          4918
+        ],
+        [
+          1769797800,
+          5192
+        ],
+        [
+          1769884200,
+          5192
+        ],
+        [
+          1769970600,
+          5192
+        ],
+        [
+          1770057000,
+          5192
+        ],
+        [
+          1770143400,
+          4830
+        ],
+        [
+          1770229800,
+          4830
+        ],
+        [
+          1770316200,
+          5140
+        ],
+        [
+          1770402600,
+          5140
+        ],
+        [
+          1770489000,
+          5140
+        ]
+      ]
+    }
+  }
+}
