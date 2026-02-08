@@ -147,3 +147,48 @@ def get_weather(place: str, target_date: str) -> Dict[str, Any]:
     except Exception as e:
         return {"error": str(e)}
 
+
+@mcp.tool()
+def get_weather_details(search_id: str) -> str:
+
+    file_path = os.path.join(WEATHER_DIR, f"{search_id}.json")
+
+    if not os.path.exists(file_path):
+        return f"No weather record found for {search_id}"
+
+    with open(file_path, "r") as f:
+        return json.dumps(json.load(f), indent=2)
+
+
+
+@mcp.resource("weather://searches")
+def list_weather_searches() -> str:
+
+    if not os.path.exists(WEATHER_DIR):
+        return "No weather searches found."
+
+    files = [f[:-5] for f in os.listdir(WEATHER_DIR) if f.endswith(".json")]
+
+    if not files:
+        return "No weather searches found."
+
+    return "Saved Weather Searches:\n\n" + "\n".join(files)
+
+
+@mcp.prompt()
+def weather_analysis_prompt(destination: str, travel_date: str) -> str:
+
+    return f"""
+    You must use get_weather tool first.
+
+    Analyze weather for {destination} on {travel_date}.
+    Provide:
+    - Rain probability
+    - Thunderstorm likelihood
+    - Wind & humidity comfort
+    - Travel advice
+    """
+
+
+if __name__ == "__main__":
+    mcp.run(transport="stdio")
