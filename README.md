@@ -5,6 +5,15 @@ It enables structured travel planning through dedicated MCP servers for **Flight
 
 ---
 
+## Demo
+
+🎥 **Project Demo**  
+[Watch the demo video](demo/TravelAssistant.mp4)
+
+> Note: GitHub opens local videos in a new tab.
+
+---
+
 ## What This Project Does
 
 - ✈️ Search and analyze flights with pricing insights
@@ -18,16 +27,11 @@ Each capability is exposed as **MCP tools, resources, and prompts**, making it e
 
 ## Project Structure
 
-
-**Project Structure**
-
 - `servers/`
   - `flight_server.py` – Flight search & analysis
   - `hotel_server.py` – Hotel discovery & filtering
   - `event_server.py` – Event discovery
   - `weather_server.py` – Weather forecast & analysis
-
-
 
 ---
 
@@ -39,4 +43,3 @@ Each capability is exposed as **MCP tools, resources, and prompts**, making it e
 - Open-Meteo API (Weather & Geocoding)
 
 ---
-
