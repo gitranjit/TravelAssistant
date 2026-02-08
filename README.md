@@ -1,84 +1,44 @@
-TravelAssistant (MCP-based)
+# TravelAssistant (MCP)
 
-A modular Travel Assistant built using Model Context Protocol (MCP).
-It provides structured tools for flights, hotels, events, and weather to support end-to-end travel planning with LLMs.
+A modular **AI-powered Travel Assistant** built using **Model Context Protocol (MCP)**.  
+It enables structured travel planning through dedicated MCP servers for **Flights, Hotels, Events, and Weather**.
 
-Features
+---
 
-✈️ Flight Search & Analysis
+## What This Project Does
 
-One-way / round-trip flights
+- ✈️ Search and analyze flights with pricing insights
+- 🏨 Find hotels with filters (price, rating, amenities)
+- 🎉 Discover local events by location and date
+- 🌦️ Get travel-friendly weather summaries (past & future)
 
-Price insights and filtering
+Each capability is exposed as **MCP tools, resources, and prompts**, making it easy for LLMs to reason and plan trips.
 
-🏨 Hotel Search
+---
 
-Filter by price, rating, amenities
-
-Property-level details
-
-🎉 Event Discovery
-
-Location-based events
-
-Date filtering and comparisons
-
-🌦️ Weather Forecast
-
-Historical + up to 15-day forecast
-
-Travel-friendly summaries
-
-Architecture
-
-Each capability runs as an independent MCP server:
+## Project Structure
 
 servers/
- ├── flight_server.py
- ├── hotel_server.py
- ├── event_server.py
- └── weather_server.py
+├── flight_server.py # Flight search & analysis
+├── hotel_server.py # Hotel discovery & filtering
+├── event_server.py # Event discovery
+└── weather_server.py # Weather forecast & analysis
 
 
-All servers expose:
+---
 
-MCP tools
+## Tech Stack
 
-MCP resources
+- Python
+- Model Context Protocol (MCP)
+- SerpAPI (Flights, Hotels, Events)
+- Open-Meteo API (Weather & Geocoding)
 
-MCP prompts
-for easy orchestration by an LLM.
+---
 
-Setup
+## Setup
 
-Clone the repo
-
-Install dependencies
-
-pip install -r requirements.txt
-
-
-Create a .env file
-
-SERPAPI_KEY=your_api_key_here
-
-
-Run any server
-
-python flight_server.py
-
-APIs Used
-
-SerpAPI – Flights, Hotels, Events
-
-Open-Meteo – Weather & Geocoding
-
-
-
-Notes
-
-No hardcoded location data
-
-Designed for extensibility
-
-Suitable for agent-based travel planners
+1. Clone the repository  
+2. Install dependencies
+   ```bash
+   pip install -r requirements.txt
