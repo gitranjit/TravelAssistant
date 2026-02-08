@@ -20,10 +20,11 @@ Each capability is exposed as **MCP tools, resources, and prompts**, making it e
 
 
 servers/
-├── flight_server.py # Flight search & analysis
-├── hotel_server.py # Hotel discovery & filtering
-├── event_server.py # Event discovery
-└── weather_server.py # Weather forecast & analysis
+├── flight_server.py    # Flight search & analysis
+├── hotel_server.py     # Hotel discovery & filtering
+├── event_server.py     # Event discovery
+└── weather_server.py  # Weather forecast & analysis
+
 
 ---
 
