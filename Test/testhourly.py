@@ -1,21 +1,12 @@
-# server to handle weather information and alerts related requests
-# support forecast upto 15 days
-# API using here: https://geocoding-api.open-meteo.com
-
-WEATHER_DIR = "D:\\TravelAssistant\\servers\\weather_server"
-
 import os
 import requests
 import json
 from datetime import datetime, date
 from statistics import mean
 from typing import Dict, Any
-from mcp.server.fastmcp import FastMCP
-
-mcp = FastMCP("weather-server")
+WEATHER_DIR = "D:\\TravelAssistant\\servers\\weather_server"
 
 def get_coordinates(place: str):
-
     url = "https://geocoding-api.open-meteo.com/v1/search"
     params = {"name": place, "count": 1}
 
@@ -29,6 +20,8 @@ def get_coordinates(place: str):
 
     result = data["results"][0]
 
+    print(f"latitude longitude: {result["latitude"] } {result["longitude"]} ")
+
     return {
         "latitude": result["latitude"],
         "longitude": result["longitude"],
@@ -37,29 +30,25 @@ def get_coordinates(place: str):
         "country": result.get("country", "")
     }
 
-
-    
 def analyze_hourly(hourly: dict, target_date: str):
 
-    rain = hourly.get("rain", [])  
+    precipitation = hourly.get("rain", [])  # rain 
     cloudcover = hourly.get("cloudcover", [])
     humidity = hourly.get("relativehumidity_2m", [])
     wind = hourly.get("windspeed_10m", [])
 
-    rainy_hours = sum(1 for p in rain if p > 0)
-    rain_probability = (rainy_hours / 24) * 100 if rain else 0
-    total_rain = sum(rain) if rain else 0
+    rainy_hours = sum(1 for p in precipitation if p > 0)
+    rain_probability = (rainy_hours / 24) * 100 if precipitation else 0
+    total_rain = sum(precipitation) if precipitation else 0
 
     avg_cloud = mean(cloudcover) if cloudcover else 0
     avg_humidity = mean(humidity) if humidity else 0
     max_wind = max(wind) if wind else 0
 
-     # I have decided below values as per google search recommendation 
-
     thunderstorm = "Low"
-    if avg_cloud > 70 and avg_humidity > 60: 
+    if total_rain > 5 and avg_cloud > 70 and avg_humidity > 70:
         thunderstorm = "Moderate"
-    if avg_humidity > 70 and max_wind > 30:
+    if total_rain > 15 and max_wind > 30:
         thunderstorm = "High"
 
     return {
@@ -72,8 +61,6 @@ def analyze_hourly(hourly: dict, target_date: str):
         "thunderstorm_likelihood": thunderstorm
     }
 
-
-@mcp.tool()
 def get_weather(place: str, target_date: str) -> Dict[str, Any]:
     """
     Use this tool whenever user asks about weather
@@ -121,7 +108,7 @@ def get_weather(place: str, target_date: str) -> Dict[str, Any]:
         hourly = data.get("hourly", {})
 
         summary = analyze_hourly(hourly, target_date)
-
+        print(f"summary {summary}")
         # Save raw data
         os.makedirs(WEATHER_DIR, exist_ok=True)
 
@@ -146,4 +133,7 @@ def get_weather(place: str, target_date: str) -> Dict[str, Any]:
 
     except Exception as e:
         return {"error": str(e)}
+
+
+l = get_weather("jodhpur","2026-02-15")
 
