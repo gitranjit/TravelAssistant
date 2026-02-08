@@ -8,7 +8,8 @@ It enables structured travel planning through dedicated MCP servers for **Flight
 ## Demo
 
 🎥 **Project Demo**  
-[Watch the demo video](demo/TravelAssistant.mp4)
+[Watch the demo video]([demo/TravelAssistant.mp4](https://github.com/user-attachments/assets/2f41dc8a-a4b7-4bff-851f-eee4c210d917))
+
 
 > Note: GitHub opens local videos in a new tab.
 
